@@ -1,0 +1,37 @@
+body {
+    font-family: Panton;
+    margin: 50px;
+    font-size: 1.2em;
+}
+
+.center {
+    text-align: center;
+}
+
+p {
+    padding-top: 15px;
+}
+
+h3 {
+    font-size: 2em;
+    color: #00aed2;
+}
+
+table {
+    width: 100%;
+}
+
+table, td {
+   border-bottom: 1px solid black;
+    border-spacing: 0px;
+}
+
+td {
+    padding: 15px;
+    vertical-align: top;
+}
+
+a {
+        color: #00aed2;
+
+}
