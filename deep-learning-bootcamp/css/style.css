@@ -1,6 +1,7 @@
 body {
-    font-family: Panton;
-    margin: 50px;
+    font-family: Panton, Roboto;
+    margin: 0px;
+    padding:0px; 
     font-size: 1.2em;
 }
 
@@ -15,6 +16,7 @@ p {
 h3 {
     font-size: 2em;
     color: #00aed2;
+    margin:5px;
 }
 
 table {
@@ -32,6 +34,11 @@ td {
 }
 
 a {
-        color: #00aed2;
+    color: #00aed2;
 
+}
+
+.button {
+    font-size : 2em;
+    font-weight: bold;    
 }
