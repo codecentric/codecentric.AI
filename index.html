@@ -1,5 +1,318 @@
-<html>
-  <body>
-   <h1> Starte den Kurs  <a href="/dl-course/">hier</a></h1>
-    </body>
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<title>Deep Learning Bootcamp by codecentric.AI</title>
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<style>
+
+  body { margin: 150px; }
+  .centered { text-align: center; }
+
+</style>
+
+</head>
+<body>
+
+<img src="images/banner.jpg" width="100%"/>
+<p>
+    Das codecentric.AI Deep Learning Bootcamp ist für <b>Entwickler auch ohne Mathe Studium</b> und ohne Data Science Background.
+    Als Einsteiger oder Fortgeschrittener findest du bei uns einen komprimierten Schnelldurchlauf durch die wichtigsten
+    Themen im Bereich der <b>künstlichen Intelligenz</b>. Unser Kurs ist <b>Hands-On</b> - wir zeigen dir viele praktische Beispiele
+    und Anwendungsmöglichkeiten. Noch vor ein paar Jahren stand diese Technologie nur einer Elite zur Verfügung - heute
+    kann man sie <b>einfach anwenden</b>!
+</p>
+<p class="centered">
+  <a href="/dl-course/" class="button">START NOW</a><br/> (Im Moment ist der Kurs nur für eine Test-Gruppe verfügbar)
+  </p>
+<table>
+    <tr>
+        <td width="70%">
+<h3>Lernziele</h3>
+
+<ul>
+    <li>Du lernst die Grundlagen von neuronalen Netzen und <b>praktisches Deep Learning!</b></li>
+    <li>Im Bereich Computer Vision, wirst Du Bilder in Keras einlesen und <b>eigene Klassifikationsmodelle</b> trainieren.</li>
+        <li>Umgang mit den derzeit relevanten Frameworks (z.B. <b>TensorFlow, Keras, Pytorch</b>)</li>
+    <li>Wir geben einen Überblick in den Bereich NLP und du wirst lernen <b>Emails zu klassifizieren</b> und automatisch zu
+    beantworten.</li>
+    <li>Mit Hilfe von Generative Adverserial Networks lassen wir neuronale Netze kreativ werden.</li>
+    <li>Wir zeigen dir was man mit <b>Reinforcement Learning</b> machen kann und du trainierst einen eigenen Agenten im OpenAI Gym.</li>
+    <li>Gemeinsam nehmen wir an Kaggle Contests teil. </li>
+    <li>Wir verwenden Reinforcement Learning um <b>Aktien Kurse vorherzusagen</b></li>
+
+</ul>
+        </td>
+        <td>
+
+        </td>
+    </tr>
+</table>
+
+<br/>
+<br/>
+<h3>Für wen ist der Kurs geeignet?</h3>
+<ul>
+    <li>Der Kurs ist für <b>Software Entwickler</b></li>
+    <li>Du solltest Programmiererfahrung haben und mindestens Basis Kentnisse in Python</li>
+    <li>Vorkenntnisse im Bereich Machine Learning und Deep Learning sind nicht nötig</li>
+    <li>Der Kurs eignet sich für <b>Einsteiger</b> und Fortgeschrittene</li>
+    <li>Der Kurs eignet sich auch für <b>Firmen-Kunden</b>. <br/>Bilden Sie bei uns Ihre Mitarbeiter aus
+        (inklusive Präsenz-Paket und Consuluting Budget - siehe <b>Firmen-Paket</b> )</li>
+</ul>
+
+<br/><br/>
+
+<h3>Firmen Paket</h3>
+<p>
+Wir bieten unseren Kurs kostenlos an - bei Interesse könnt ihr jedoch ein Vor-Ort Workshop buchen. Dieser beinhaltet folgendes:
+</p>
+<ul>
+  <li>Der Kurs startet mit einem 3-Tage Vor Ort Workshop</li>
+  <li>Die Teilnehmer bekommen direkten Kontakt zu den Dozenten</li>
+  <li>Zusätzlich erhält man ein Consulting Paket (10 Stunden direkten Kontakt zu unseren AI Experten), um Probleme in aktuellen Projekten besprechen zu können.</li>
+  <li>Das Paket kostet 800 EUR pro Teilnehmer. Teilnehmerzahl: mindestens 5 bis maximal 25</li>
+</ul>
+
+<br/><br/>
+
+<h3>Curriculum</h3>
+
+<table>
+    <tr>
+        <td width="50%">Einführung<br/><br/>
+        <img src="images/was-ist-ki.png" width="420"/> </td>
+        <td><ul>
+            <li>Wir stellen uns vor. Unsere Motivation für den Kurs. </li>
+                        <li>Real World Examples, Beispiele aus der Industrie</li>
+
+            <li>(<a href="https://www.youtube.com/watch?v=VZ5ChkfJOYc">Was ist künstliche Intelligenz und was kann man damit machen</a>)</li>
+            <li>Warum ist Deep Learning so interessant</li>
+            <li>Aufbau des Kurses<br/>
+            - Theorie Teile mit Übungsaufgaben<br/>
+            - Praxis Teile (kleine Projekte)</li>
+        </ul>
+        </td>
+    </tr>
+    <tr>
+        <td>Entwicklungs Umgebung</td>
+        <td><ul>
+            <li>Lokal oder in der Cloud? CPU oder GPU?</li>
+            <li>Einrichtung mit Docker</li>
+            <li>Jupyter Notebook Basics</li>
+        </ul>
+        </td>
+    </tr>
+    <tr>
+        <td>Machine Learning Basics</td>
+        <td><ul>
+            <li>Was ist Machine Learning 
+                <br/>- Lernen aus Daten
+                <br/>- Supervised vs. Unsupervises vs. Reinforced
+                <br/>- Regression vs. Classification
+                <br/>- Cost Functions
+                <br/>- Machine Learning ist mathematische Approximation
+            </li>
+
+            <li>Einführung in Random Forests</li>
+            <li>Boosting, SVM, </li>
+            <li>PCA, t-SNE, ...</li>
+            <li>Klassische Methoden</li>
+            <li>Algorithmen</li>
+            <li>"klassische" Anwendungsgebiete</li>
+        </ul>
+
+        </td>
+    </tr>
+    <tr>
+        <td>Computer Vision Basics<br/><br/>
+        <img src="images/cv_basics.png" width="420"/> </td>
+        <td>Am Beispiel einer Computer Vision Drohne erklären wir wie man einfache CV Algorithmen kombiniert um Personen zu finden:
+            <ul>
+            <li>Welche Tools und Frameworks gibt es</li>
+            <li>Wie sieht der Rechner ein Bild</li>
+            <li>Bilder laden und verarbeiten</li>
+            <li>Farbräume</li>
+            <li>Klassische Algorithmen und Methoden (z.B. Haar Cascades, HOG etc.)</li>
+            <li>Thresholding</li>
+            <li>Finde einen Marker im Bild</li>
+            <li>Finde Gesichter im Bild</li>
+            <li>Vor- und Nachteile von klassichen Methoden<br/>
+            - Beispiel Security Camera<br/>
+            - Was geht mit DL: Object Detection, Human Pose Estimation ..., Drone</li>
+        </ul></td>
+    </tr>
+
+    <tr>
+        <td>Neuronale Netze und Deep Learning <br/><br/>
+        <img src="images/nndl.png" width="420"/> </td>
+        <td><ul>
+            <li>Neuronale Netze vs. Machine Learning</li>
+            <li>Historie</li>
+            <li>Was ist ein Perzeptron</li>
+            <li>Was sind Aktivierungsfunktionen</li>
+            <li>Neuronale Netze können jedes Problem annähern</li>
+            <li>Mehrschichtige Perzeptrone</li>
+            <li>Klassifikations-Probleme</li>
+            <li>Softmax Funktion</li>
+            <li>Cross Entropy und Loss Funktionen</li>
+            <li>Backpropagation</li>
+            <li>Gradient Descent</li>
+            <li>Was ist Deep Learning</li>
+            <li>Wo begegnet man Deep Learning</li>
+        </ul></td>
+    </tr>
+    <tr>
+        <td>Überblick über Frameworks</td>
+        <td><ul>
+            <li>Überblick TF, Keras, PyTorch</li>
+            <li>deep dive pytorch</li>
+        </ul></td>
+    </tr>
+
+    <tr>
+        <td>Neuronale Netze selbst gemacht</td>
+        <td><ul>
+            <li>Einfaches NN selbst geschrieben</li>
+            <li>Aktivierungs- und Loss FUnktionen</li>
+            <li>Forward Feed selber rechnen</li>
+            <li>Backprop selber rechnen</li>
+            <li>(Wie mache ich das in pytorch)</li>
+    </tr>
+    <tr>
+        <td>Computer Vision Praxis 1: AI Tutti Frutti<br/><br/>
+        <img src="images/ananas.jpg" width="420"></td>
+        <td>Was bist du denn für ein Früchtchen? Anhand eines Früchte-Datasets bauen wir einen Classifier,
+            der Bananen, Äpfel, Birnen und vieles mehr voneinander unterscheiden kann.
+            <ul>
+             <li>Bilder aus Kaggle einlesen</li>
+             <li>Ordner Strukturen (Labels, Training, Test)</li>
+             <li>Data Augmentation</li>
+             <li>Das erste neuronale Netz Trainieren: CNN</li>
+             <li>Kontrolle des Trainings mit TensorBoard</li>
+             <li>Was sind ConvNets bzw. Convolutions</li>
+             <li>Pooling und Output</li>
+             <li>Visualisieren, was das Netz gelernt hat</li>
+             <li>Evaluation des Modells und Bilder Testen</li>
+             <li>Performance Kriterien</li>
+        </ul>
+        </td>
+    </tr>
+    <tr>
+        <td>Deep Learning mit mehr Power</td>
+        <td><ul>
+             <li>Überblick DL auf AWS</li>
+             <li>Unser Docker auf AWS EC2 Instanz</li>
+             <li>Einführung SageMaker</li>
+             <li>colab.research.google.com</li>
+        </ul>
+        </td>
+    </tr>   <tr>
+        <td>Transfer Learning</td>
+        <td><ul>
+             <li>Was sind vortrainierte Netze</li>
+             <li>Deep Learning mit wenig Daten</li>
+             <li>Vortrainierte Netze anwenden</li>
+             <li>ResNets - the State of the Art</li>
+             <li>Hausaufgabe: Großes Dataset klassifizieren</li>
+        </ul>
+        </td>
+    </tr><tr>
+        <td>NN Architekturen</td>
+        <td><ul>
+             <li>CNN: LeNet, AlexNet, ResNet, ...</li>
+             <li>RNNs (LSTMs)</li>
+             <li>AutoML</li>
+             <li>Hyper Parameter Tuning .. (Gridsearch)</li>
+        </ul>
+        </td>
+    </tr>
+      <tr>
+        <td>Generative Adverserial Networks</td>
+        <td><ul>
+          <li> Was ist ein GAN und wie funktioniert es</li>
+          <li> Beispielanwendungen: Generation of Images (e.g. Anime figures, ProgressiveGrowing), Superresolution, Style Transfer</li>
+          <li> Example: emoji creation (Progressive growing of GANs by NVIDIA) </li>
+        </ul>
+        </td>
+    </tr>
+     <tr>
+        <td>Predictive Maintenance</td>
+        <td><ul>
+            <li>Wartungs Strategien</li>
+	    <li>Arten von Daten</li>
+            <li>Klassifikation mit CNNs</li>
+        </ul>
+        </td>
+    </tr>
+
+    <tr>
+        <td>Natural Language Processing Basics</td>
+        <td><ul>
+            <li>Was kann NLP und was nicht</li>
+            <li>Sprach Syntese</li>
+            <li>Topic Modeling</li>
+            <li>Sprache Verstehen</li>
+            <li>Alexa Siri und Co</li>
+            <li>TTS Systeme in der Cloud</li>
+        </ul></td>
+    </tr>
+    <tr>
+        <td>NLP Praxis 1: Emails automatisch verstehen und beantworten</td>
+        <td><ul>
+            <li>bald mehr</li>
+        </ul></td>
+    </tr>
+    <tr>
+        <td>Reinforcement Learning Basics</td>
+        <td><ul>
+            <li>bald mehr</li>
+          </ul>
+	</td>
+    </tr>
+    <tr>
+        <td>Reinforcement Learning Praxis</td>
+        <td><ul>
+            <li>bald mehr</li>
+        </ul></td>
+    </tr>
+
+
+</table>
+
+<br/><br/>
+<h3>FAQs</h3>
+
+<p><b>Wie läuft der Kurs ab?</b>
+Der Kurs ist aufgeteilt in mehrere Abschitte. Wir versuchen jede Einheit kleiner als 30 Minuten zu halten, damit man den Kurs gut "nebenbei" machen kann. Zu jedem Modul haben wir zunächst ein paar einführende Videos erstellt, die die Basics erklären sollen. Danach gibt es jeweils einen praktischen Teil, wo wir uns Code ansehen und danach folgen Übungsaufgaben, die selbständig zu bearbeiten sein. Die Kurs Inhalte sind fast ausschliesslich auf Deutsch erstellt.
+</p>
+
+<p><b>Was kostet der Kurs?</b>
+Wir lieben den Open Source Gedanken. Daher stellen wir diesen Kurs kostenlos zur Verfügung. Wir hoffen damit mehr Entwickler für die Themen Machine und Deep Learning begeistern zu können. Bei Interesse bieten wir aber auch einen (kostenpflichtigen) komprimierten Vor-Ort Workshop für Firmen an. 
+</p>
+
+<p><b>Was mache ich, wenn ich Hilfe brauche?</b>
+Zur Begleitung des Kurses haben wir eine Slack Community erstellt. Dort kannst Du Dich anmelden und Deine Fragen stellen. <a href="https://join.slack.com/t/cc-ai-bootcamp/signup" target="_blank">https://join.slack.com/t/cc-ai-bootcamp/signup</a>
+</p>
+
+<p><b>Ist der Kurs schon vollständig verfügbar?</b>
+  Wir entwickeln den Kurs Schritt für Schritt. Einige Kapitel sind bereits online - an anderen arbeiten wir noch. Wir werden den Kurs kontinuierlich weiter entwickeln und vor allem immer neue Übungen einstellen, die in der Praxis relevant sind (z.B. aus dem Projekt-Alltag - oder aufgrund vom Feedback der Teilnehmer).
+</p>
+
+<br/><br/>
+<h3>Weitere Links und Kontakt</h3>
+
+<ul>
+  <li><a href="https://www.codecentric.de/kuenstliche-intelligenz/">Kontakt zu codecentric.AI</a></li>
+  <li><a href="https://www.youtube.com/codecentricAI">Unser Youtube Channel</a></li>
+  <li><a href="https://join.slack.com/t/cc-ai-bootcamp/signup">Unsere Slack Community</a></li>
+  <li><a href="https://github.com/codecentric/codecentric.AI">Unser github Repsository</a></li>
+  <li><a href="https://codecentric.slides.com">Slides Repsository</a></li>
+</ul>
+
+<br/><br/>
+<footer class="centered"><a href="https://www.codecentric.de/impressum/">Impressum</a> |
+<a href="https://www.codecentric.de/datenschutzerklaerung/">Datenschutzerklärung</a> | </footer>
+
+</body>
 </html>

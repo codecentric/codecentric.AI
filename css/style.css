@@ -1,0 +1,44 @@
+body {
+    font-family: Panton, Roboto;
+    margin: 0px;
+    padding:0px; 
+    font-size: 1.2em;
+}
+
+.center {
+    text-align: center;
+}
+
+p {
+    padding-top: 15px;
+}
+
+h3 {
+    font-size: 2em;
+    color: #00aed2;
+    margin:5px;
+}
+
+table {
+    width: 100%;
+}
+
+table, td {
+   border-bottom: 1px solid black;
+    border-spacing: 0px;
+}
+
+td {
+    padding: 15px;
+    vertical-align: top;
+}
+
+a {
+    color: #00aed2;
+
+}
+
+.button {
+    font-size : 2em;
+    font-weight: bold;    
+}
