@@ -10,3 +10,4 @@ In diesem Repository findet ihr begleitende Files von http://codecentric.ai
 
 Unser youtube Channel: https://www.youtube.com/c/codecentricAI
 
+Unser Online Kurs: https://bootcamp.codecentric.ai

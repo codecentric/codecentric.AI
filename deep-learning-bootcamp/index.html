@@ -1,341 +1,948 @@
+
 <!DOCTYPE html>
 <html lang="de">
 <head>
-<meta charset="utf-8">
-<title>Deep Learning Bootcamp by codecentric.AI</title>
-<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
-<style>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-body { margin: 50px; }
 
-</style>
+	<meta name="description" content="Um Grundlagen der künstlichen Intelligenz und des Machine Learning zu beherrschen, braucht man keinen Doktor in Mathematik! Mit unserem codecentric.AI Bootcamp geben wir dir einen komprimierten Schnelldurchlauf durch ML, Deep Learning, Computer Vision und Co. – hands-on und kostenlos.">
 
+    <title>codecentric AI Bootcamp</title>
+
+
+    <link href="css/application-aiBootcamp.css?version=2" rel="stylesheet">
+    <link rel="stylesheet" href="https://i.icomoon.io/public/43b15e0973/codecentricHubspot/style.css">
+
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
 </head>
-<body>
-
-<img src="images/banner.jpg" width="100%"/>
-<p>
-    Das codecentric.AI Deep Learning Bootcamp ist für <b>Entwickler auch ohne Mathe Studium</b> und ohne Data Science Background.
-    Als Einsteiger oder Fortgeschrittener findest du bei uns einen komprimierten Schnelldurchlauf durch die wichtigsten
-    Themen im Bereich der <b>künstlichen Intelligenz</b>. Unser Kurs ist <b>Hands-On</b> - wir zeigen dir viele praktische Beispiele
-    und Anwendungsmöglichkeiten. Noch vor ein paar Jahren stand diese Technologie nur einer Elite zur Verfügung - heute
-    kann man sie <b>einfach anwenden</b>!
-</p>
-<a href="/dl-course/" class="button">START NOW</a>
-<p>
-    Im Kurs verwenden wir Python, Keras, TensorFlow und PYTORCH und geben einen Überblick über die aktuell relevanten
-    Frameworks:
-</p>
-
-<div class="center"><img src="images/logos.png"/></div>
-
-<table>
-    <tr>
-        <td width="70%">
-<h3>Lernziele</h3>
-
-<ul>
-    <li>Du lernst die Grundlagen von neuronalen Netzen und <b>praktisches Deep Learning!</b></li>
-    <li>Im Bereich Computer Vision, wirst Du Bilder in Keras einlesen und <b>eigene Klassifikationsmodelle</b> trainieren.</li>
-    <li>Wir geben einen Überblick in den Bereich NLP und du wirst lernen <b>Emails zu klassifizieren</b> und automatisch zu
-    beantworten.</li>
-    <li>Mit Hilfe von Generative Adverserial Networks lassen wir neuronale Netze kreativ werden.</li>
-    <li>Wir zeigen dir was man mit <b>Reinforcement Learning</b> machen kann und du trainierst einen eigenen Agenten im OpenAI Gym.</li>
-    <li>Gemeinsam nehmen wir an Kaggle Contests teil. </li>
-    <li>Wir verwenden Reinforcement Learning um <b>Aktien Kurse vorherzusagen</b></li>
-
-</ul>
-        </td>
-        <td>
-            <h3>Der Kurs in Zahlen</h3>
-            <ul>
-                <li>8 Module mit 89 Lektionen, </li>
-                <li>12 Stunden Video</li>
-                <li>589 eingeschriebene Studenten</li>
-                <li>4 Praxis Teile</li>
-                <li>72 Übungsaufgaben</li>
-            </ul>
-                            <img src="images/sterne.png" width="350"> <br/>
-            4,7 / 285 Bewertungen
-
-        </td>
-    </tr>
-</table>
-
-<br/>
-<div class="center"><img src="images/quote.png"/></div>
-
-<h3>Für wen ist der Kurs geeignet?</h3>
-<ul>
-    <li>Der Kurs ist für <b>Software Entwickler</b></li>
-    <li>Du solltest Programmiererfahrung haben und mindestens Basis Kentnisse in Python</li>
-    <li>Vorkenntnisse im Bereich Machine Learning und Deep Learning sind nicht nötig</li>
-    <li>Der Kurs eignet sich für <b>Einsteiger</b> und Fortgeschrittene</li>
-    <li>Der Kurs eignet sich auch für <b>Firmen-Kunden</b>. <br/>Bilden Sie bei uns Ihre Mitarbeiter aus
-        (inklusive Präsenz-Paket und Consuluting Budget - siehe <a href="#firmen-paket">Firmen-Paket)</a></li>
-</ul>
+<body class="aiBootcampTemplate">
 
 
-<h3>Dozenten</h3>
-<div class="center"><img src="images/dozenten.png"/></div>
+<div class="widgetAiBootcampNavi">
 
 
-<h3>Curriculum</h3>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-10 col-lg-8">
+                <ul class="list-inline list-unstyled">
+                    <li class="hidden-md hidden-lg">
+                        <a href="#" class="hamburger hamburger--elastic" id="triggerMobileNav"> <span class="hamburger-box"> <span class="hamburger-inner"></span> </span> </a>
+                    </li>
 
-<table>
-    <tr>
-        <td width="50%"><a href="">Einführung</a><br/><br/>
-        <img src="images/was-ist-ki.png" width="420"/> </td>
-        <td><ul>
-            <li>Wir stellen uns vor. Unsere Motivation für den Kurs. </li>
+                    <li class="first">
+                        <div class="widgetKiLogo">
+
+                            <!--?xml version="1.0" encoding="utf-8"?-->
+                            <!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+                            <svg version="1.1" id="Ebene_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 705 98" enable-background="new 0 0 705 98" xml:space="preserve">
+<path d="M282.4,3.9h-3.9c-2.1,0-3,0.9-3,3v13.6c-2.7-0.7-7.1-1.8-12.4-1.8c-12.9,0-19.8,6.9-19.8,19.9v13.2
+	c0,12.8,7.2,19.6,20.8,19.6c8.4,0,13.8-1.7,17.1-3c3.3-1.3,4.1-2.5,4.1-5.8V6.9C285.3,4.8,284.4,3.9,282.4,3.9z M275.5,59.7
+	c0,0.8,0,0.8-0.8,1.1c-2.7,0.9-6.2,1.5-9.8,1.5c-7.8,0-11.6-3.5-11.6-10.7V38.9c0-7.5,3.6-11,11.4-11c4.7,0,8.5,1.2,10.8,1.9V59.7z
+	 M567.7,20.1h-11.5V6.9c0-2.1-0.9-3-3-3h-3.9c-2.1,0-2.9,0.9-2.9,3v13.2h-7c-2.1,0-3,0.9-3,3v3.3c0,2.1,0.9,3,3,3h7v21.3
+	c0,7.9,1.4,12.9,4.5,16.1c3,3.1,7.7,4.5,15.1,4.5c0.5,0,1.1,0,1.7,0c1.9-0.1,3.1-0.6,3.1-3v-3.4c0-2.2-0.9-3-3.1-3
+	c-8.6,0-11.3-1.6-11.3-11.4V29.4h11.5c2,0,2.9-0.9,2.9-3v-3.3C570.6,21,569.7,20.1,567.7,20.1z M634.4,20.1h-3.9c-2.1,0-3,0.9-3,3
+	V67c0,2.1,0.9,3,3,3h3.9c2.1,0,3-0.9,3-3V23.1C637.4,21,636.5,20.1,634.4,20.1z M205,18.7c-13.6,0-21.7,7-21.7,18.7v15.3
+	c0,11.5,8.3,18.7,21.7,18.7c13.7,0,21.8-7,21.8-18.7V37.5C226.9,25.7,218.7,18.7,205,18.7z M217,52.7c0,6-4.5,9.6-12,9.6
+	c-7.5,0-11.9-3.6-11.9-9.6V37.4c0-6,4.5-9.6,11.9-9.6c7.5,0,12,3.6,12,9.6V52.7z M503,18.7c-9.2,0-14.8,1.9-18.2,3.2
+	c-3.1,1.3-4,2.6-4,5.9V67c0,2.1,0.9,3,2.9,3h3.9c2.1,0,3-0.9,3-3V30.5c0-0.5,0.1-0.8,0.6-1c3.4-1.1,7-1.6,10.6-1.6
+	c7.5,0,11,3.3,11,10.4V67c0,2.1,0.9,3,3,3h3.9c2.1,0,3-0.9,3-3V38C522.8,25.4,516,18.7,503,18.7z M441.7,18.7
+	c-13.9,0-21.9,7.6-21.9,20.8v11.6c0,13.1,7.7,20.2,21.6,20.2c10,0,17-3.4,20.8-10c0.7-1.1,0.9-2,0.7-2.8c-0.2-0.8-0.8-1.4-1.8-1.9
+	l-2.5-1.3c-0.8-0.5-1.5-0.7-2-0.7c-1.2,0-2,0.9-2.6,1.8c-2.4,4.1-6.5,6.1-12.4,6.1c-7.7,0-11.8-3.6-11.8-10.5v-3.8h29.8
+	c2.8,0,4.2-1.4,4.2-4v-5.4C463.7,26.2,455.5,18.7,441.7,18.7z M453.8,40.4h-24.2v-2c0-7.1,4.3-11.1,12.1-11.1s12.1,3.9,12.1,11.1
+	V40.4z M325,18.7c-13.9,0-21.9,7.6-21.9,20.8v11.6c0,13.1,7.7,20.2,21.6,20.2c10,0,17-3.4,20.8-10c0.7-1,0.9-2,0.7-2.8
+	c-0.2-0.8-0.8-1.4-1.8-1.9l-2.5-1.3c-0.8-0.5-1.5-0.7-2-0.7c-1.2,0-2,0.9-2.6,1.8c-2.4,4.1-6.5,6.1-12.4,6.1
+	c-7.7,0-11.8-3.6-11.8-10.5v-3.8h29.8c2.8,0,4.2-1.4,4.2-4v-5.4C346.9,26.2,338.7,18.7,325,18.7z M337.1,40.4h-24.2v-2
+	c0-7.1,4.3-11.1,12.1-11.1s12.1,3.9,12.1,11.1V40.4z M610,18.7h-3c-6.8,0.2-12.6,1.1-17.4,3c-3.1,1.3-4,2.6-4,5.9V67
+	c0,2.1,0.9,3,2.9,3h3.9c2.1,0,3-0.9,3-3V30.6c0-0.6,0-0.9,0.8-1.2c3.4-1.1,6.8-1.6,10.6-1.6h3.3c2.1,0,3-0.9,3-3v-3.2
+	C613,19.6,612.2,18.7,610,18.7z"></path>
+<path d="M56.6,79.5c-0.8-0.8-2.1-0.9-3.1-0.2c-4.4,3-9.4,4.3-13.8,4.3c-14,0-25.3-11.5-25-25.6c0.3-13.6,11.8-24.4,25.4-24.4h26.8
+	c2.6,0,4.8,1.8,5.2,4.4c0.4,3.1-2,5.7-5,5.7h-27c-7.3,0-13.5,5.7-13.8,13c-0.3,7.7,5.9,14,13.5,14h26.8c18.3,0,33.6-14.5,34-32.8
+	C101,19.1,85.8,3.8,67.2,3.8c-5.7,0-12.9,1.4-19.4,6.2c-1.2,0.9-1.3,2.6-0.3,3.6l2.8,2.8c0.8,0.8,2.1,0.9,3.1,0.2
+	c4.4-3,9.4-4.3,13.8-4.3c14,0,25.3,11.5,25,25.6c-0.3,13.6-11.8,24.4-25.4,24.4l-26.8,0c-2.6,0-4.8-1.8-5.2-4.4
+	c-0.4-3.1,2-5.7,5-5.7h27c7.3,0,13.5-5.7,13.8-13c0.3-7.7-5.9-14-13.5-14H40.3c-18.3,0-33.6,14.5-34,32.8C5.9,76.6,21,92,39.7,92
+	c5.7,0,12.9-1.4,19.4-6.2c1.2-0.9,1.3-2.6,0.3-3.6L56.6,79.5z"></path>
+<path d="M165.8,53.8c0,0-3.2-1.2-4.5-1.2c-1.4,0-2,1.1-2.6,2.3c-2.3,5-5.8,7.6-11.9,7.6c-7.4,0-11.4-3.7-11.4-10.4V37.9
+	c0-6.7,4-10.3,11.4-10.3c6.3,0,9.3,2.2,11.5,7.4c0.4,1,1.1,2.2,2.6,2.3c1.2,0.1,5.9-1.5,6.9-3c0.4-0.6,0.3-1.5-0.1-2.6
+	c-1.9-6-7-13.1-20.5-13.1c-14,0-21.7,7-21.7,19.6v13.4c0,12.7,7.5,19.7,21.2,19.7c11,0,18-4.4,21.2-13.4
+	C168.8,55.4,167.4,54.4,165.8,53.8z"></path>
+<path d="M402.5,53.8c0,0-3.2-1.2-4.5-1.2c-1.4,0-2,1.1-2.6,2.3c-2.3,5-5.8,7.6-11.9,7.6c-7.4,0-11.4-3.7-11.4-10.4V37.9
+	c0-6.7,4-10.3,11.4-10.3c6.3,0,9.3,2.2,11.5,7.4c0.4,1,1.1,2.2,2.6,2.3c1.2,0.1,5.9-1.5,6.9-3c0.4-0.6,0.3-1.5-0.1-2.6
+	c-1.9-6-7-13.1-20.5-13.1c-14,0-21.7,7-21.7,19.6v13.4c0,12.7,7.5,19.7,21.2,19.7c11,0,18-4.4,21.2-13.4
+	C405.5,55.4,404.1,54.4,402.5,53.8z"></path>
+<path d="M695.6,53.8c0,0-3.2-1.2-4.5-1.2c-1.4,0-2,1.1-2.6,2.3c-2.3,5-5.8,7.6-11.9,7.6c-7.4,0-11.4-3.7-11.4-10.4V37.9
+	c0-6.7,4-10.3,11.4-10.3c6.3,0,9.3,2.2,11.5,7.4c0.4,1,1.1,2.2,2.6,2.3c1.2,0.1,5.9-1.5,6.9-3c0.4-0.6,0.3-1.5-0.1-2.6
+	c-1.9-6-7-13.1-20.5-13.1c-14,0-21.7,7-21.7,19.6v13.4c0,12.7,7.5,19.7,21.2,19.7c11,0,18-4.4,21.2-13.4
+	C698.7,55.4,697.2,54.4,695.6,53.8z"></path>
+</svg><span>.AI</span>
+
+
+                        </div>
+                    </li>
+
+                    <li class="hidden-xs visible-md-inline visible-lg-inline">
+                        <a href="#fuer-wen" class="scrollSection">Für wen?</a>
+                    </li>
+                    <li class="hidden-xs visible-md-inline visible-lg-inline">
+                        <a href="#lernziele" class="scrollSection">Lernziele</a>
+                    </li>
+                    <li class="hidden-xs visible-md-inline visible-lg-inline">
+                        <a hreF="#module" class="scrollSection">Module</a>
+                    </li>
+                    <li class="hidden-xs visible-md-inline visible-lg-inline">
+                        <a href="#dozenten" class="scrollSection">Dozenten</a>
+                    </li>
+                    <li class="hidden-xs visible-md-inline visible-lg-inline">
+                        <a href="#firmen-deep-drive" class="scrollSection">Firmen Deep-Drive</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-xs-6 col-md-2 col-lg-4 text-right hidden-xs">
+                <ul class="list-inline list-unstyled controls">
+                    <li>
+                        <a href="https://bootcamp.codecentric.ai/dl-course/" target="_blank">
+                            Login
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://bootcamp.codecentric.ai/dl-course/" target="_blank">
+                            Register
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+
+
+        </div>
+    </div>
+</div>
+
+
+<div class="widgetAiBootcampHeader">
+
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-md-7">
+                <h1>
+                	Artificial Intelligence <br/><strong>Bootcamp</strong>
+                </h1>
+                <p>
+                    Um Grundlagen der künstlichen Intelligenz und des Machine Learning zu beherrschen, braucht man keinen Doktor in Mathematik! Mit unserem codecentric.AI Bootcamp geben wir dir einen komprimierten Schnelldurchlauf durch ML, Deep Learning, Computer Vision und Co. – hands-on und kostenlos.
+                </p>
+                <p>
+                    <a href="https://bootcamp.codecentric.ai/dl-course/" target="_blank" class="btn btn-primary btn-red">
+                        KOSTENLOS TEILNEHMEN
+                    </a>
+                </p>
+            </div>
+
+        </div>
+    </div>
+    <img src="images/Brain.gif" class="brain hidden-xs hidden-sm visible-md visible-lg" alt="ARTIFICIAL INTELLIGENCE"/>
+
+</div>
+
+
+
+<div class="widgetKiContent" id="fuer-wen">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 text-center">
+                <h2>Für wen ist dieser Kurs geeignet?</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-2">
+                <ul class="list-arrow list-unstyled">
+                    <li>Der Kurs ist für Software-Entwickler.</li>
+                    <li>Du solltest Programmiererfahrung und Basiskenntnisse in Python haben.</li>
+                    <li>Vorkenntnisse in den Bereichen Machine Learning und Deep Learning sind nicht nötig.</li>
+                    <li>Der Kurs eignet sich für Einsteiger und Fortgeschrittene.</li>
+                    <li>Der Kurs eignet sich auch für <a href="#firmen-deep-drive" class="scrollSection">Firmenkunden</a>: Bilden Sie bei uns Ihre Mitarbeiter aus (inklusive Präsenz-Paket und Consulting Budget).</li>
+
+                </ul>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
+<div class="widgetKiContent gradientBlue teaser animateIt" id="lernziele">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 text-center">
+                <h2>Was wird dir dieser Kurs beibringen?</h2>
+            </div>
+        </div>
+
+        <div class="row teaserWrap">
+            <div class="col-xs-12 col-sm-6 col-md-3 text-center">
+                <div class="teaser-item">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="85.021" height="85.021">
+                        <g data-name="Gruppe 313" fill="#323232" stroke="#323232" stroke-width="2">
+                            <path data-name="Pfad 8089" d="M59.02 16.196H25.941a9.314 9.314 0 0 0-9.285 9.285v34.064a9.318 9.318 0 0 0 9.285 9.285H59.02a9.326 9.326 0 0 0 9.344-9.285V25.481a9.326 9.326 0 0 0-9.344-9.285zm8.114 43.343a8.1 8.1 0 0 1-8.114 8.117H25.941a8.146 8.146 0 0 1-8.114-8.114V25.481a8.184 8.184 0 0 1 8.114-8.114H59.02a8.146 8.146 0 0 1 8.114 8.114z"/>
+                            <g data-name="Gruppe 313">
+                                <path data-name="Rechteck 306" d="M1 25.633h16.239v1.166H1z"/>
+                                <path data-name="Rechteck 307" d="M1 36.498h16.239v1.166H1z"/>
+                                <path data-name="Rechteck 308" d="M1 47.357h16.239v1.166H1z"/>
+                                <path data-name="Rechteck 309" d="M1 58.222h16.239v1.166H1z"/>
+                                <path data-name="Rechteck 310" d="M67.781 25.633H84.02v1.166H67.781z"/>
+                                <path data-name="Rechteck 311" d="M67.781 36.498H84.02v1.166H67.781z"/>
+                                <path data-name="Rechteck 312" d="M67.781 47.357H84.02v1.166H67.781z"/>
+                                <path data-name="Rechteck 313" d="M67.781 58.222H84.02v1.166H67.781z"/>
+                            </g>
+                            <g data-name="Gruppe 314">
+                                <path data-name="Rechteck 314" d="M58.222 1h1.166v16.239h-1.166z"/>
+                                <path data-name="Rechteck 315" d="M47.357 1h1.166v16.239h-1.166z"/>
+                                <path data-name="Rechteck 316" d="M36.498 1h1.166v16.239h-1.166z"/>
+                                <path data-name="Rechteck 317" d="M25.633 1h1.166v16.239h-1.166z"/>
+                                <path data-name="Rechteck 318" d="M58.222 67.781h1.166V84.02h-1.166z"/>
+                                <path data-name="Rechteck 319" d="M47.357 67.781h1.166V84.02h-1.166z"/>
+                                <path data-name="Rechteck 320" d="M36.498 67.781h1.166V84.02h-1.166z"/>
+                                <path data-name="Rechteck 321" d="M25.633 67.781h1.166V84.02h-1.166z"/>
+                            </g>
+                        </g>
+                    </svg>
+                    <p>
+                        Du lernst die Grundlagen von Machine Learning, neuronalen Netzen und praktischem Deep Learning.
+                    </p>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-3 text-center">
+                <div class="teaser-item">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="78.352" height="85.324">
+                        <g data-name="Gruppe 322">
+                            <g data-name="Gruppe 321">
+                                <g data-name="Gruppe 319">
+                                    <path data-name="Pfad 8093" d="M39.156 59.221c-23.807-.6-23.807-34.516 0-35.116 10.576-.335 27.467 9.912 35.843 15.892a2.053 2.053 0 0 1 0 3.325c-8.376 5.987-25.267 16.228-35.843 15.899zm.07-1.2c10.178.266 26.936-9.912 35.047-15.76a.684.684 0 0 0 0-1.195c-8.111-5.854-24.875-16.025-35.047-15.76-22.214.664-22.214 32.054 0 32.714z" fill="#323232" stroke="#323232" stroke-width="2"/>
+                                </g>
+                                <g data-name="Gruppe 320">
+                                    <path data-name="Pfad 8094" d="M40.243 24.105c23.807.6 23.807 34.516 0 35.116-10.576.339-27.467-9.912-35.843-15.892a2.053 2.053 0 0 1 0-3.325c8.376-5.987 25.267-16.234 35.843-15.899zM40.18 25.3c-10.178-.265-26.936 9.912-35.047 15.76a.684.684 0 0 0 0 1.195c8.111 5.854 24.875 16.025 35.047 15.76 22.208-.655 22.208-32.045 0-32.715z" fill="#323232" stroke="#323232" stroke-width="2"/>
+                                </g>
+                            </g>
+                            <path data-name="Pfad 8095" d="M39.839 22.013h-1.321V5.678h28.814v1.328H39.839z" fill="#323232" stroke="#323232" stroke-width="2"/>
+                            <path data-name="Pfad 8096" d="M72.01 11.683a5.342 5.342 0 1 1 5.342-5.342 5.347 5.347 0 0 1-5.342 5.342zm0-9.362a4.02 4.02 0 1 0 4.02 4.02 4.023 4.023 0 0 0-4.02-4.02z" fill="#323232" stroke="#323232" stroke-width="2"/>
+                            <path data-name="Pfad 8097" d="M39.701 50.542a8.882 8.882 0 1 1 8.882-8.882 8.894 8.894 0 0 1-8.882 8.882zm0-16.436a7.554 7.554 0 1 0 7.554 7.554 7.562 7.562 0 0 0-7.554-7.552z" fill="#323232" stroke="#323232" stroke-width="2"/>
+                            <path data-name="Pfad 8098" d="M39.84 79.649H11.02v-1.652h27.5V59.229h1.32z" fill="#323232" stroke="#323232" stroke-width="2"/>
+                            <path data-name="Pfad 8099" d="M6.342 84.324a5.342 5.342 0 1 1 5.342-5.342 5.347 5.347 0 0 1-5.342 5.342zm0-9.362a4.02 4.02 0 1 0 4.02 4.02 4.023 4.023 0 0 0-4.02-4.02z" fill="#323232" stroke="#323232" stroke-width="2"/>
+                        </g>
+                    </svg>
+                    <p>
+                        Im Bereich Computer Vision wirst du Bilder in Keras einlesen und eigene Klassifikationsmodelle trainieren.
+                    </p>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-3 text-center">
+                <div class="teaser-item">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="88" height="69.748">
+                        <g data-name="Gruppe 363">
+                            <path data-name="Pfad 8119" d="M15.742 2.853a12.876 12.876 0 0 0-12.89 12.89v5.949c0 .391-.1.483-.483.483h-.886c-.391 0-.483-.091-.483-.483v-5.95A14.794 14.794 0 0 1 15.742 1h5.949c.391 0 .483.091.483.483v.874c0 .391-.091.483-.483.483h-5.949zm0 64.043a12.876 12.876 0 0 1-12.89-12.89v-5.949c0-.391-.1-.587-.483-.587h-.886c-.391 0-.483.2-.483.587v5.949a14.794 14.794 0 0 0 14.742 14.742h5.949c.391 0 .483-.091.483-.483v-.874c0-.391-.091-.483-.483-.483h-5.949zM72.258 2.853a12.876 12.876 0 0 1 12.89 12.89v5.949c0 .391.2.483.587.483h.783c.391 0 .483-.091.483-.483v-5.95A14.727 14.727 0 0 0 72.258 1h-5.949c-.391 0-.483.091-.483.483v.874c0 .391.091.483.483.483h5.949zm0 64.043a12.876 12.876 0 0 0 12.89-12.89v-5.949a.519.519 0 0 1 .587-.587h.783c.391 0 .483.2.483.587v5.949a14.727 14.727 0 0 1-14.743 14.742h-5.949c-.391 0-.483-.091-.483-.483v-.874c0-.391.091-.483.483-.483h5.949z" fill="#323232" stroke="#323232" stroke-width="2"/>
+                        </g>
+                    </svg>
+                    <p>
+                        Umgang mit den derzeit relevanten Frameworks (z. B. TensorFlow, Keras, PyTorch)
+                    </p>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-3 text-center">
+                <div class="teaser-item">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="84.459" height="84.459">
+                        <g data-name="Gruppe 314" fill="#323232" stroke="#323232" stroke-width="2">
+                            <g data-name="Gruppe 316">
+                                <path data-name="Pfad 8090" d="M54.191 52.51l-5.99-5.472v.862a4.824 4.824 0 0 1-4.785 4.816h-8.57l-5.127 4.717a.976.976 0 0 1-1.65-.687v-4.13a4.833 4.833 0 0 1-3.891-4.716v-8.782A4.832 4.832 0 0 1 29 34.302h4.89v-2.269a5.287 5.287 0 0 1 5.266-5.266h15.866a5.266 5.266 0 0 1 5.265 5.266v9.7a5.247 5.247 0 0 1-4.3 5.165v4.89a1.042 1.042 0 0 1-1.796.722zM33.885 41.733v-6.781h-4.89a4.149 4.149 0 0 0-4.129 4.166v8.776a4.174 4.174 0 0 0 3.854 4.2v4.647a.318.318 0 0 0 .55.206l5.334-4.89h8.813a4.15 4.15 0 0 0 4.129-4.166v-.893h-8.4a5.278 5.278 0 0 1-5.261-5.265zm21.131-14.32H39.15a4.655 4.655 0 0 0-4.61 4.61v9.71a4.631 4.631 0 0 0 4.61 4.61h9.257l6.265 5.715c.312.206.656.069.656-.275v-5.437l.275-.037a4.64 4.64 0 0 0 4.029-4.578v-9.698a4.64 4.64 0 0 0-4.616-4.62z"/>
+                                <path data-name="Pfad 8091" d="M29.037 57.913a1.245 1.245 0 0 1-.492-.106 1.156 1.156 0 0 1-.7-1.068v-3.954a5.051 5.051 0 0 1-3.891-4.89v-8.777a5.044 5.044 0 0 1 5.038-5.038h4.674v-2.057a5.487 5.487 0 0 1 5.483-5.482h15.866a5.487 5.487 0 0 1 5.483 5.482v9.708a5.448 5.448 0 0 1-4.3 5.34v4.711a1.231 1.231 0 0 1-.724 1.142 1.311 1.311 0 0 1-1.428-.259l-5.625-5.139v.37a5.026 5.026 0 0 1-5 5.038h-8.495l-5.06 4.657a1.229 1.229 0 0 1-.829.322zm-.042-23.394a4.6 4.6 0 0 0-4.6 4.6v8.776a4.618 4.618 0 0 0 3.717 4.5l.174.037v4.309a.733.733 0 0 0 .439.671.779.779 0 0 0 .851-.143l5.186-4.769h8.655a4.589 4.589 0 0 0 4.568-4.6v-1.327h-8.834a4.838 4.838 0 0 1-4.832-4.832v-9.71a4.9 4.9 0 0 1 4.832-4.832h15.865a4.833 4.833 0 0 1 4.827 4.832v9.7a4.866 4.866 0 0 1-4.214 4.8l-.09.011v5.245a.581.581 0 0 1-.3.523.686.686 0 0 1-.7-.063l-6.228-5.678h-.317l6.328 5.784a.884.884 0 0 0 .957.185.79.79 0 0 0 .465-.745v-5.072l.18-.032a5.02 5.02 0 0 0 4.124-4.949v-9.709a5.052 5.052 0 0 0-5.049-5.049H39.14a5.052 5.052 0 0 0-5.049 5.049v2.49zm10.155-6.888a4.452 4.452 0 0 0-4.393 4.393v9.707a4.4 4.4 0 0 0 4.393 4.393h9.342l6.328 5.773a.24.24 0 0 0 .227.021.145.145 0 0 0 .063-.137v-5.626l.465-.058a4.427 4.427 0 0 0 3.838-4.362v-9.704a4.4 4.4 0 0 0-4.393-4.393H39.15zM29.037 57.263a.6.6 0 0 1-.211-.042.515.515 0 0 1-.323-.481v-4.457a4.353 4.353 0 0 1-3.854-4.388v-8.777a4.371 4.371 0 0 1 4.346-4.383h5.107v7a5.052 5.052 0 0 0 5.049 5.049h8.615v1.11a4.371 4.371 0 0 1-4.346 4.383h-8.729l-5.271 4.832a.557.557 0 0 1-.383.154zm-.042-22.094a3.935 3.935 0 0 0-3.912 3.949v8.776a3.959 3.959 0 0 0 3.664 3.986l.19.021v4.837a.083.083 0 0 0 .058.079.126.126 0 0 0 .127-.026l5.4-4.954h8.9a3.935 3.935 0 0 0 3.912-3.949v-.677h-8.178a5.487 5.487 0 0 1-5.483-5.482v-6.56z"/>
+                            </g>
+                            <path data-name="Pfad 8092" d="M58.627 16.089H25.769a9.249 9.249 0 0 0-9.22 9.22V59.14a9.249 9.249 0 0 0 9.22 9.22h32.858a9.269 9.269 0 0 0 9.284-9.22V25.315a9.27 9.27 0 0 0-9.284-9.226zm8.062 43.06a8.057 8.057 0 0 1-8.062 8.062H25.769a8.1 8.1 0 0 1-8.062-8.062V25.315a8.133 8.133 0 0 1 8.062-8.066h32.858a8.1 8.1 0 0 1 8.062 8.062z"/>
+                            <g data-name="Gruppe 317">
+                                <path data-name="Rechteck 322" d="M1 25.468h16.13v1.158H1z"/>
+                                <path data-name="Rechteck 323" d="M1 36.258h16.13v1.158H1z"/>
+                                <path data-name="Rechteck 324" d="M1 47.044h16.13v1.158H1z"/>
+                                <path data-name="Rechteck 325" d="M1 57.834h16.13v1.158H1z"/>
+                                <path data-name="Rechteck 326" d="M67.329 25.468h16.13v1.158h-16.13z"/>
+                                <path data-name="Rechteck 327" d="M67.329 36.258h16.13v1.158h-16.13z"/>
+                                <path data-name="Rechteck 328" d="M67.329 47.044h16.13v1.158h-16.13z"/>
+                                <path data-name="Rechteck 329" d="M67.329 57.834h16.13v1.158h-16.13z"/>
+                            </g>
+                            <g data-name="Gruppe 318">
+                                <path data-name="Rechteck 330" d="M57.834 1h1.158v16.13h-1.158z"/>
+                                <path data-name="Rechteck 331" d="M47.044 1h1.158v16.13h-1.158z"/>
+                                <path data-name="Rechteck 332" d="M36.258 1h1.158v16.13h-1.158z"/>
+                                <path data-name="Rechteck 333" d="M25.468 1h1.158v16.13h-1.158z"/>
+                                <path data-name="Rechteck 334" d="M57.834 67.329h1.158v16.13h-1.158z"/>
+                                <path data-name="Rechteck 335" d="M47.044 67.329h1.158v16.13h-1.158z"/>
+                                <path data-name="Rechteck 336" d="M36.258 67.329h1.158v16.13h-1.158z"/>
+                                <path data-name="Rechteck 337" d="M25.468 67.329h1.158v16.13h-1.158z"/>
+                            </g>
+                        </g>
+                    </svg>
+                    <p>
+                        Wir geben einen Überblick über den Bereich NLP (Natural Language Processing) und du wirst lernen, E-Mails zu klassifizieren und automatisch zu beantworten.
+                    </p>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-3 text-center">
+                <div class="teaser-item">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="82.845" height="87.475">
+                        <path data-name="Pfad 8087" d="M77.105 57.826a4.743 4.743 0 0 0-3.214 1.265l-15.559-13.1a4.722 4.722 0 0 0 0-5.157L73.891 27.72a4.738 4.738 0 1 0-.062-6.894L58.38 8.249a4.735 4.735 0 1 0-8.713-3.091H33.185a4.736 4.736 0 1 0-8.713 3.091L9.015 20.82a4.738 4.738 0 1 0-1.477 7.8l16.817 12.457a4.712 4.712 0 0 0 .15 4.9L8.954 59.091a4.743 4.743 0 1 0 0 6.955l15.559 13.11a4.736 4.736 0 0 0 3.973 7.318 4.756 4.756 0 0 0 4.705-4.158H49.66a4.737 4.737 0 1 0 8.672-3.16l15.559-13.11a4.739 4.739 0 1 0 3.214-8.221zm0-37.211a3.625 3.625 0 1 1-3.625 3.625 3.622 3.622 0 0 1 3.625-3.626zM73.09 21.73a4.715 4.715 0 0 0 .041 5.088l-15.558 13.11a4.71 4.71 0 0 0-5.389-.732L42.137 24.574 52.184 9.952a4.678 4.678 0 0 0 2.182.533 4.735 4.735 0 0 0 3.276-1.32zM32.118 43.4a3.632 3.632 0 1 1-3.632-3.632 3.634 3.634 0 0 1 3.632 3.632zm-.486-3.536l9.794-14.253 9.794 14.253a4.751 4.751 0 0 0-1.559 2.954H33.185a4.725 4.725 0 0 0-1.553-2.952zm1.5 4.459h16.576a4.735 4.735 0 0 0 1.648 2.742l-9.93 14.465-9.937-14.455a4.752 4.752 0 0 0 1.648-2.75zm17.59-.923a3.632 3.632 0 1 1 3.632 3.632 3.634 3.634 0 0 1-3.627-3.632zm3.636-41.292a3.632 3.632 0 1 1-3.632 3.632 3.634 3.634 0 0 1 3.632-3.632zm-4.7 4.22a4.718 4.718 0 0 0 1.559 2.954l-9.791 14.253-9.794-14.253a4.751 4.751 0 0 0 1.559-2.954zm-21.172-4.22a3.632 3.632 0 1 1-3.632 3.632 3.634 3.634 0 0 1 3.632-3.632zM5.739 27.754a3.515 3.515 0 1 1 3.515-3.515 3.514 3.514 0 0 1-3.515 3.515zm2.907.226a4.718 4.718 0 0 0 1.115-6.251L25.21 9.166a4.735 4.735 0 0 0 3.276 1.32 4.784 4.784 0 0 0 2.182-.533l10.046 14.621L30.661 39.2a4.678 4.678 0 0 0-2.182-.533 4.728 4.728 0 0 0-3.426 1.47zM5.739 66.2a3.625 3.625 0 1 1 3.625-3.625A3.622 3.622 0 0 1 5.739 66.2zm3.974-1.05a4.722 4.722 0 0 0 0-5.157l15.559-13.11a4.743 4.743 0 0 0 3.214 1.265 4.678 4.678 0 0 0 2-.451l10.222 14.875L30.49 77.447a4.678 4.678 0 0 0-2-.451 4.743 4.743 0 0 0-3.214 1.265zm18.773 20.217a3.632 3.632 0 1 1 3.632-3.632 3.634 3.634 0 0 1-3.632 3.632zm4.7-4.22a4.7 4.7 0 0 0-1.7-3.078L41.419 63.6l9.937 14.465a4.732 4.732 0 0 0-1.7 3.078zm21.174 4.22a3.632 3.632 0 1 1 3.632-3.632 3.634 3.634 0 0 1-3.634 3.632zm3.214-7.106A4.743 4.743 0 0 0 54.358 77a4.678 4.678 0 0 0-2 .451L42.137 62.572 52.355 47.7a4.678 4.678 0 0 0 2 .451 4.743 4.743 0 0 0 3.214-1.265l15.559 13.11a4.722 4.722 0 0 0 0 5.157zM77.105 66.2a3.625 3.625 0 1 1 3.625-3.625 3.622 3.622 0 0 1-3.625 3.625z" fill="#323232" stroke="#323232" stroke-width="2"/>
+                    </svg>
+                    <p>
+                        Mithilfe von Generative Adversarial Networks lassen wir neuronale Netze kreativ werden.
+                    </p>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-3 text-center">
+                <div class="teaser-item">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="105.342" height="46.411">
+                        <path data-name="Pfad 14482" d="M101.331 15.852h-2.638a2.941 2.941 0 0 0-1.789.608v-1.62a3 3 0 0 0-2.993-2.993h-3.378a2.941 2.941 0 0 0-1.789.608V3.993A3 3 0 0 0 85.751 1h-8.565a3 3 0 0 0-2.993 2.993V16.46a2.946 2.946 0 0 0-1.789-.614H32.92a2.946 2.946 0 0 0-1.789.614V3.993A3 3 0 0 0 28.138 1h-8.57a3 3 0 0 0-2.993 2.993v8.462a2.98 2.98 0 0 0-1.789-.608h-3.379a3 3 0 0 0-2.993 2.993v2.36a2.98 2.98 0 0 0-1.789-.608H3.993A3 3 0 0 0 1 19.586v7.98a3 3 0 0 0 2.993 2.993h2.638a2.941 2.941 0 0 0 1.789-.608v1.62a3 3 0 0 0 2.993 2.993h3.379a2.941 2.941 0 0 0 1.789-.608v8.462a3 3 0 0 0 2.993 2.993h8.57a3 3 0 0 0 2.993-2.993V29.951a2.946 2.946 0 0 0 1.789.614h39.49a2.946 2.946 0 0 0 1.789-.614v12.467a3 3 0 0 0 2.995 2.993h8.57a3 3 0 0 0 2.993-2.993v-8.462a2.98 2.98 0 0 0 1.789.608h3.379a3 3 0 0 0 2.993-2.993V29.21a2.98 2.98 0 0 0 1.789.608h2.638a3 3 0 0 0 2.993-2.993v-7.98a3.024 3.024 0 0 0-3.013-2.993zm-94.7 13.5H3.993A1.793 1.793 0 0 1 2.2 27.566v-7.98A1.789 1.789 0 0 1 3.993 17.8h2.638a1.789 1.789 0 0 1 1.789 1.786v7.98a1.8 1.8 0 0 1-1.789 1.789zm8.155 4.005h-3.379a1.789 1.789 0 0 1-1.789-1.789V14.84a1.789 1.789 0 0 1 1.789-1.789h3.379a1.789 1.789 0 0 1 1.789 1.789v16.731a1.793 1.793 0 0 1-1.789 1.789zm15.141 9.058a1.789 1.789 0 0 1-1.789 1.789h-8.57a1.789 1.789 0 0 1-1.789-1.789V3.993A1.789 1.789 0 0 1 19.568 2.2h8.57a1.789 1.789 0 0 1 1.789 1.789zM72.4 29.427H32.92a1.823 1.823 0 0 1-1.789-1.494v-9.455a1.823 1.823 0 0 1 1.789-1.494h39.49a1.823 1.823 0 0 1 1.79 1.494v9.462a1.825 1.825 0 0 1-1.8 1.487zm15.145 12.991a1.789 1.789 0 0 1-1.789 1.789h-8.57a1.789 1.789 0 0 1-1.786-1.789V3.993A1.789 1.789 0 0 1 77.186 2.2h8.57a1.789 1.789 0 0 1 1.789 1.789v38.429zm8.161-10.847a1.789 1.789 0 0 1-1.789 1.789h-3.378a1.789 1.789 0 0 1-1.789-1.789V14.84a1.789 1.789 0 0 1 1.789-1.789h3.379a1.789 1.789 0 0 1 1.789 1.789v16.731zm7.414-4.746a1.789 1.789 0 0 1-1.789 1.789h-2.638a1.789 1.789 0 0 1-1.793-1.789v-7.98a1.789 1.789 0 0 1 1.789-1.789h2.638a1.789 1.789 0 0 1 1.789 1.789z" fill="#323232" stroke="#323232" stroke-width="2"/>
+                    </svg>
+                    <p>
+                        Wir zeigen dir, was man mit Reinforcement Learning machen kann und du trainierst einen eigenen Agenten im OpenAI Gym.
+                    </p>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-3 text-center">
+                <div class="teaser-item">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="87.298" height="87.212">
+                        <g data-name="Gruppe 365">
+                            <path data-name="Pfad 8121" d="M44.644 60.132v17.132h10.474a.5.5 0 0 1 .486.555v.763c0 .381-.208.486-.486.486H32.366c-.381 0-.486-.1-.486-.486v-.763c0-.381.1-.555.486-.555H42.84V60.132A25.265 25.265 0 0 1 19.5 43.485C10.825 37.97 5.142 30.999 2.54 24.93-.616 17.404.84 9.323 10.551 9.323h7.248v-5.48A2.843 2.843 0 0 1 20.575 1h46.369a2.843 2.843 0 0 1 2.775 2.844V9.25h7.144c9.607 0 11.029 8.081 7.907 15.607-2.462 6.1-8.185 12.936-16.751 18.485a25.293 25.293 0 0 1-23.375 16.79zM18.737 40.78a32.239 32.239 0 0 1-.936-8.289V11.058h-7.249c-8.289 0-8.948 6.867-6.277 13.144 2.184 5.341 7.04 11.448 14.462 16.578zM66.909 2.907H20.54a.892.892 0 0 0-.936.936v28.648c0 14.566 9.433 25.8 24.1 25.8 14.74 0 24.173-11.237 24.173-25.8V3.844a.984.984 0 0 0-.968-.937zM20.055 86.212c-.381 0-.486-.1-.486-.486v-.866c0-.381.1-.486.486-.486h47.236c.382 0 .59.1.59.486v.867c0 .382-.208.486-.59.486zm56.77-75.12h-7.144v21.433a31.96 31.96 0 0 1-.936 8.185c7.318-5.133 12.1-11.133 14.358-16.474 2.569-6.311 1.979-13.144-6.278-13.144z" fill="#323232" stroke="#323232" stroke-width="2"/>
+                        </g>
+                    </svg>
+                    <p>
+                        Gemeinsam nehmen wir an Kaggle Contests teil.
+                    </p>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-3 text-center">
+                <div class="teaser-item">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="86.612" height="64.06">
+                        <g data-name="Gruppe 366">
+                            <path data-name="Pfad 8122" d="M3.112 50.443a7.351 7.351 0 0 1 5.253-2.112 7.2 7.2 0 0 1 3.6.942l11.672-16.615a7.347 7.347 0 1 1 12.218-5.567 5.915 5.915 0 0 1-.314 2.027l15.986 6.423a7.521 7.521 0 0 1 6.594-3.911 7.206 7.206 0 0 1 3.368.771l12.133-18.412a5 5 0 0 1-.542-.457 7.274 7.274 0 0 1-2.2-5.167 7.474 7.474 0 0 1 2.2-5.253A7.2 7.2 0 0 1 78.247 1a7.218 7.218 0 0 1 7.365 7.365 7.15 7.15 0 0 1-2.112 5.167 7.423 7.423 0 0 1-5.253 2.2 7.285 7.285 0 0 1-3.368-.856l-12.133 18.41a7.339 7.339 0 1 1-11.99 5.652 8.665 8.665 0 0 1 .228-1.97L35 30.546a7.29 7.29 0 0 1-6.509 3.911 6.975 6.975 0 0 1-3.6-.942L13.132 50.128c.143.086.228.228.4.314a7.4 7.4 0 0 1 2.112 5.253 7.15 7.15 0 0 1-2.112 5.167 7.274 7.274 0 0 1-5.167 2.2 7.475 7.475 0 0 1-5.253-2.2A7.1 7.1 0 0 1 1 55.695a7.4 7.4 0 0 1 2.112-5.252zm5.253-.628A5.678 5.678 0 0 0 4.2 51.527a5.66 5.66 0 0 0-1.713 4.139A5.971 5.971 0 0 0 4.2 59.834a5.747 5.747 0 0 0 4.168 1.656 6.176 6.176 0 0 0 4.168-1.656 6.122 6.122 0 0 0 1.656-4.168 5.747 5.747 0 0 0-1.656-4.139 5.971 5.971 0 0 0-4.171-1.713zM28.49 21.297a5.838 5.838 0 1 0 5.881 5.795 5.8 5.8 0 0 0-5.881-5.795zm29.632 11.846a5.838 5.838 0 1 0 0 11.675 5.838 5.838 0 1 0 0-11.675zM78.275 2.48a5.971 5.971 0 0 0-4.168 1.713 5.892 5.892 0 0 0-1.713 4.139 6.371 6.371 0 0 0 1.713 4.168 6.122 6.122 0 0 0 4.168 1.656 5.753 5.753 0 0 0 5.881-5.823 5.567 5.567 0 0 0-1.713-4.139 5.773 5.773 0 0 0-4.168-1.714z" fill="#323232" stroke="#323232" stroke-width="2"/>
+                        </g>
+                    </svg>
+                    <p>
+                        Wir verwenden Reinforcement Learning, um Aktienkurse vorherzusagen.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-xs-12 text-center">
+                <p class="text-center">
+                    <a href="https://bootcamp.codecentric.ai/dl-course/" target="_blank" class="btn btn-primary btn-red">Kostenlos teilnehmen</a>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="hidden-xs visible-md visible-lg">
+        <div class="parallaxImage arm1">
+            <img src="images/arm1.png" alt="codecentric AI Bootcamp">
+        </div>
+        <div class="parallaxImage arm2">
+            <img src="images/arm2.png" alt="codecentric AI Bootcamp">
+        </div>
+    </div>
+
+</div>
+
+<div class="widgetKiContent accordion" id="module">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 text-center">
+                <h2>Welche Module erwarten dich in diesem Kurs?</h2>
+            </div>
+
+            <div class="col-xs-12 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3 accordionWrap">
+                <h3 class="accordionTitle">
+                    <strong>Modul 1:</strong> Einführung
+                </h3>
+                <div class="accordionContent">
+                    <ul>
+                        <li>Wir stellen uns vor. Unsere Motivation für den Kurs.</li>
                         <li>Real World Examples, Beispiele aus der Industrie</li>
+                        <li><a href="https://www.youtube.com/watch?v=VZ5ChkfJOYc" target="_blank">(Was ist künstliche Intelligenz und was kann man damit machen?)</a></li>
+                        <li>Warum ist Deep Learning so interessant?</li>
+                        <li>Aufbau des Kurses
+                            <ul>
+                                <li>Theorie mit Übungsaufgaben</li>
+                                <li>Praxis (kleine Projekte)</li>
+                            </ul>
+                                </li>
 
-            <li>(<a href="https://www.youtube.com/watch?v=VZ5ChkfJOYc">Was ist künstliche Intelligenz und was kann man damit machen</a>)</li>
-            <li>Warum ist Deep Learning so interessant</li>
-            <li>Aufbau des Kurses<br/>
-            - Theorie Teile mit Übungsaufgaben<br/>
-            - Praxis Teile (kleine Projekte)</li>
-        </ul>
-        </td>
-    </tr>
-    <tr>
-        <td><a href="">Entwicklungs Umgebung</a><br/><br/>
-        <img src="images/jupyter.png" width="420"> </td>
-        <td><ul>
-            <li>Lokal oder in der Cloud? CPU oder GPU?</li>
-            <li>Einrichtung mit Docker (gebrandet? cloudcentric?)</li>
-            <li>(Einrichtung Python, Jupyter Notebook, Keras, TensorFlow und PyTorch) Dockerfile und virtualenv</li>
-            <li>Jupyter Notebook Basics</li>
-        </ul>
-        </td>
-    </tr>
-    <tr>
-        <td>Machine Learning Basics</td>
-        <td><ul>
-            <li>Was ist Machine Learning (Oli)
-                <br/>- Lernen aus Daten
-                <br/>- Online vs Offline
-                <br/>- Supervised vs. Unsupervises vs. Reinforced
-                <br/>- Regression vs. Classification
-                <br/>- Cost Functions
-                <br/>- Machine Learning ist mathematische Approximation
-            </li>
+                    </ul>
+                </div>
 
-            <li>Einführung in Random Forests (Shirin)</li>
-            <li>Boosting, SVM, </li>
-            <li>PCA, t-SNE, ...</li>
-            <li>Klassische Methoden</li>
-            <li>Algorithmen</li>
-            <li>"klassische" Anwendungsgebiete</li>
-            <li>Beispiel scikit ... später nochmal mit Deep Learning</li>
-        </ul>
-            Aufgaben Größe: 1 Freitag. 1 Template erstellen. Mitstreiter finden (wie?)
+                <h3 class="accordionTitle">
+                    <strong>Modul 2:</strong> Entwicklungsumgebung
+                </h3>
+                <div class="accordionContent">
 
-        </td>
-    </tr>
-    <tr>
-        <td><a href="https://codecentric.slides.com/omoser/computer-vision-basics/live#/1">Computer Vision Basics (Oli)</a><br/><br/>
-        <img src="images/cv_basics.png" width="420"/> </td>
-        <td>Am Beispiel einer Computer Vision Drohne erklären wir wie man einfache CV Algorithmen kombiniert um Personen zu finden:
-            <ul>
-            <li>Welche Tools und Frameworks gibt es</li>
-            <li>Wie sieht der Rechner ein Bild</li>
-            <li>Bilder laden und verarbeiten</li>
-            <li>Farbräume</li>
-            <li>Klassische Algorithmen und Methoden (z.B. Haar Cascades, HOG etc.)</li>
-            <li>Thresholding</li>
-            <li>Finde einen Marker im Bild</li>
-            <li>Finde Gesichter im Bild</li>
-            <li>Vor- und Nachteile von klassichen Methoden<br/>
-            - Beispiel Security Camera<br/>
-            - Was geht mit DL: Object Detection, Human Pose Estimation ..., Drone</li>
-        </ul></td>
-    </tr>
+                    <ul>
+                        <li>Lokal oder in der Cloud? CPU oder GPU?</li>
+                        <li>Einrichtung mit Docker</li>
+                        <li>Jupyter Notebook Basics</li>
+                    </ul>
 
-    <tr>
-        <td><a href="https://codecentric.slides.com/shiringlander/computer-vision-bootcamp#/1">Neuronale Netze und Deep Learning (Shirin)</a><br/><br/>
-        <img src="images/nndl.png" width="420"/> </td>
-        <td><ul>
-            <li>Neuronale Netze vs. Machine Learning</li>
-            <li>Historie</li>
-            <li>Was ist ein Perzeptron</li>
-            <li>Was sind Aktivierungsfunktionen</li>
-            <li>Neuronale Netze können jedes Problem annähern</li>
-            <li>Mehrschichtige Perzeptrone</li>
-            <li>Klassifikations-Probleme</li>
-            <li>Softmax Funktion</li>
-            <li>Cross Entropy und Loss Funktionen</li>
-            <li>Backpropagation</li>
-            <li>Gradient Descent</li>
-            <li>Was ist Deep Learning</li>
-            <li>Wo begegnet man Deep Learning</li>
-        </ul></td>
-    </tr>
-    <tr>
-        <td>Überblick über Frameworks</td>
-        <td><ul>
-            <li>Überblick TF, Keras, PyTorch</li>
-            <li>deep dive pytorch</li>
-        </ul></td>
-    </tr>
+                </div>
 
-    <tr>
-        <td>Neuronale Netze selbst gemacht (evtl. in vorigen Abschnitt mergen ... learning by doing)</td>
-        <td><ul>
-            <li>Einfaches NN selbst geschrieben</li>
-            <li>Aktivierungs- und Loss FUnktionen</li>
-            <li>Forward Feed selber rechnen</li>
-            <li>Backprop selber rechnen</li>
-            <li>(Wie mache ich das in pytorch)</li>
+                <h3 class="accordionTitle">
+                    <strong>Modul 3:</strong> Machine Learning Basics
+                </h3>
+                <div class="accordionContent">
 
-        </ul> Wer? Mitstreiter finden ... </td>
+                    <ul>
+                        <li>Was ist Machine Learning?
+                            <ul>
+                                <li>Lernen aus Daten</li>
+                                <li>Supervised vs. Unsupervised vs. Reinforced</li>
+                                <li>Regression vs. Classification</li>
+                                <li>Cost Functions</li>
+                                <li>Machine Learning ist mathematische Approximation.</li></ul></li>
+                        <li>Einführung in Random Forests</li>
+                        <li>Boosting, SVM</li>
+                        <li>PCA, t-SNE, ...</li>
+                        <li>Klassische Methoden</li>
+                        <li>Algorithmen</li>
+                        <li>"Klassische" Anwendungsgebiete</li>
 
-    </tr>
-    <tr>
-        <td>Computer Vision Praxis 1: AI Tutti Frutti<br/><br/>
-        <img src="images/ananas.jpg" width="420"></td>
-        <td>Was bist du denn für ein Früchtchen? Anhand eines Früchte-Datasets bauen wir einen Classifier,
-            der Bananen, Äpfel, Birnen und vieles mehr voneinander unterscheiden kann.
-            <ul>
-             <li>Bilder aus Kaggle einlesen</li>
-             <li>Ordner Strukturen (Labels, Training, Test)</li>
-             <li>Data Augmentation</li>
-             <li>Das erste neuronale Netz Trainieren: CNN</li>
-             <li>Kontrolle des Trainings mit TensorBoard</li>
-             <li>Was sind ConvNets bzw. Convolutions</li>
-             <li>Pooling und Output</li>
-             <li>Visualisieren, was das Netz gelernt hat</li>
-             <li>Evaluation des Modells und Bilder Testen</li>
-             <li>Performance Kriterien</li>
-        </ul>
-        </td>
-    </tr>
-    <tr>
-        <td>Deep Learning mit mehr Power</td>
-        <td><ul>
-             <li>Überblick DL auf AWS</li>
-             <li>Unser Docker auf AWS EC2 Instanz</li>
-             <li>Einführung SageMaker</li>
-             <li>colab.research.google.com</li>
-        </ul>
-        </td>
-    </tr>   <tr>
-        <td>Transfer Learning</td>
-        <td><ul>
-             <li>Was sind vortrainierte Netze</li>
-             <li>Deep Learning mit wenig Daten</li>
-             <li>Vortrainierte Netze anwenden</li>
-             <li>ResNets - the State of the Art</li>
-             <li>Hausaufgabe: Großes Dataset klassifizieren</li>
-        </ul>
-        </td>
-    </tr><tr>
-        <td>NN Architekturen</td>
-        <td><ul>
-             <li>CNN: LeNet, AlexNet, ResNet, ...</li>
-             <li>RNNs (LSTMs)</li>
-             <li>AutoML</li>
-             <li>Hyper Parameter Tuning .. (Gridsearch)</li>
-        </ul>
-        </td>
-    </tr>
-      <tr>
-        <td>Generative Adverserial Networks (Tim Sabsch)</td>
-        <td><ul>
-          <li> What is a GAN? How does it work (Basic idea, Goodfellow paper)</li>
-          <li> Beispielanwendungen: Generation of Images (e.g. Anime figures, ProgressiveGrowing), Superresolution, Style Transfer</li>
-          <li> Example: emoji creation (Progressive growing of GANs by NVIDIA) </li>
-          <li> Example: Style transfer codecentric employees? (StarGAN) </li>
-          <li> Outlook? Further ideas …</li>
-        </ul>
-        </td>
-    </tr>
-     <tr>
-        <td>Predictive Maintenance (Guilio C.)</td>
-        <td><ul>
-             <li>tbd.</li>
-             <li>ts fresh</li>
-        </ul>
-        </td>
-    </tr>
+                    </ul>
 
-    <tr>
-        <td>Natural Language Processing Basics (Thomas Timmermann)</td>
-        <td><ul>
-            <li>Sprach Syntese</li>
-            <li>Topic Modeling</li>
-            <li>Sprache Verstehen</li>
-            <li>Alexa Siri und Co</li>
-            <li>TTS Systeme in der Cloud</li>
-            <li>TODO</li>
-            <li>TODO</li>
-        </ul></td>
-    </tr>
-    <tr>
-        <td>NLP Praxis 1: Emails automatisch verstehen und beantworten (Nico?)</td>
-        <td><ul>
-            <li>Sprach Syntese</li>
-            <li>Topic Modeling</li>
-            <li>Sprache Verstehen</li>
-            <li>Alexa Siri und Co</li>
-            <li>TTS Systeme in der Cloud</li>
-            <li>TODO</li>
-            <li>TODO</li>
-        </ul></td>
-    </tr>
-    <tr>
-        <td>Reinforcement Learning Basics</td>
-        <td><ul>
-            <li>Q Learning</li>
-            <li>Domain Randomization</li>
-            <li>TODO</li>
-            <li>TODO</li>
-        </ul>check: https://lilianweng.github.io/lil-log/2018/02/19/a-long-peek-into-reinforcement-learning.html</td>
-    </tr>
-    <tr>
-        <td>Reinforcement Learning Praxis 1: </td>
-        <td><ul>
-            <li>TODO</li>®
-            <li>TODO</li>
-        </ul></td>
-    </tr>
+                </div>
 
 
-</table>
+                <h3 class="accordionTitle">
+                    <strong>Modul 4:</strong> Computer Vision Basics
+                </h3>
+                <div class="accordionContent">
+                    <p>
+                        Am Beispiel einer Computer-Vision-Drohne erklären wir, wie man einfache CV-Algorithmen kombiniert, um Personen zu finden:
+                    </p>
+                    <ul>
+                        <li>Welche Tools und Frameworks gibt es?</li>
+                        <li>Wie sieht der Rechner ein Bild?</li>
+                        <li>Bilder laden und verarbeiten</li>
+                        <li>Farbräume</li>
+                        <li>Klassische Algorithmen und Methoden (z. B. Hair Cascades, HOG etc.)</li>
+                        <li>Thresholding</li>
+                        <li>Finde einen Marker im Bild.</li>
+                        <li>Finde Gesichter im Bild.</li>
+                        <li>
+                            Vor- und Nachteile von klassischen Methoden
+                            <ul>
+                                <li>Beispiel Security Camera</li>
+                                <li>Was geht mit DL? Object Detection, Human Pose Estimation, Drohne</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
 
-Timeseries, Anomaly Detection, RNN, GANs, Auto Encoder, Sequence2Sequence, Embeddings, Recomendation Systems,
-Evolutionäre Algos, Overfitting vs. Underfitting, Regression vs. Classification, Categorical vs. Continous Variables,
 
-Regularisation/Dropout/Normalisation, Attention, Vanishing/Exploding Gradients
+                <h3 class="accordionTitle">
+                    <strong>Modul 5:</strong> Neuronale Netze und Deep Learning
 
-- integriertes Consulting Paket
+                </h3>
+                <div class="accordionContent">
+                    <ul>
+                        <li>Neuronale Netze vs. Machine Learning</li>
+                        <li>Historie</li>
+                        <li>Was ist ein Perzeptron?</li>
+                        <li>Was sind Aktivierungsfunktionen?</li>
+                        <li>Neuronale Netze können jedes Problem eingrenzen.</li>
+                        <li>Mehrschichtige Perzeptrone</li>
+                        <li>Klassifikationsprobleme</li>
+                        <li>Softmax-Funktion</li>
+                        <li>Cross Entropy und Loss-Funktionen</li>
+                        <li>Backpropagation</li>
+                        <li>Gradient Descent</li>
+                        <li>Was ist Deep Learning?</li>
+                        <li>Wo begegnet man Deep Learning?</li>
+                    </ul>
+                </div>
 
-<a name="firmen-paket"></a>
-<h3>Firmen Paket</h3>
-<ul>
-    <li>Der Kurs startet mit einem 3-Tage Vor Ort Workshop</li>
-    <li>Die Teilnehmer bekommen direkten Kontakt zu den Dozenten</li>
-    <li>Der Hauptteil kann Online und in freier Zeiteinteilung bearbeitet werden</li>
-    <li>Zusätzlich erhält man ein Consulting Paket (10 Stunden direkten Kontakt zu unseren AI Experten), um Probleme in
-        aktuellen Projekten besprechen zu können.</li>
-    <li>Das Paket kostet 500 EUR pro Teilnehmer. Teilnehmerzahl: mindestens 5 bis maximal 25</li>
-</ul>
 
-<h3>FAQs</h3>
+                <h3 class="accordionTitle">
+                    <strong>Modul 6:</strong>  Überblick über Frameworks
+                </h3>
+                <div class="accordionContent">
+                    <ul>
+                        <li>Überblick TF, Keras, PyTorch</li>
+                        <li>Deep Dive PyTorch</li>
+                    </ul>
+                </div>
 
-<p><b>Wie läuft der Kurs ab?</b>
-Der Kurs ist aufgeteilt in mehrere Abschitte. Es gibt zunächst eine Einführung mit Basics und Videos. Dann gibt es
-    Übungsaufgaben. Ausserdem gibt es Praxis teile ... todododododo
-</p>
+                <h3 class="accordionTitle">
+                    <strong>Modul 7:</strong>  Computer-Vision-Praxis 1
+                </h3>
+                <div class="accordionContent">
+                    <p>
+                        Was bist du denn für ein Früchtchen? Anhand eines Früchte-Datasets bauen wir einen Classifier, der Bananen, Äpfel, Birnen und vieles mehr voneinander unterscheiden kann.
+                    </p>
+                    <ul>
+                        <li>Bilder aus Kaggle einlesen</li>
+                        <li>Ordner-Strukturen (Labels, Training, Test)</li>
+                        <li>Data Augmentation</li>
+                        <li>Das erste neuronale Netz trainieren: CNN</li>
+                        <li>Kontrolle des Trainings mit TensorBoard</li>
+                        <li>Was sind ConvNets bzw. Convolutions?</li>
+                        <li>Pooling und Output</li>
+                        <li>Visualisieren, was das Netz gelernt hat</li>
+                        <li>Evaluation des Modells und Bilder testen</li>
+                        <li>Performance-Kriterien</li>
 
-<p><b>Was kostet der Kurs?</b>
-Der Kurs wird 900 EUR pro Teilnehmer kosten. Wer sich in der Einführungsphase einschreibt, für den ist der Kurs
-    kostenlos.
-</p>
+                    </ul>
+                </div>
 
-<p><b>Wieviel Zeit muss ich für den Kurs investieren?</b>
-    Wenn du ca. 4 Stunden pro Woche investierst, brauchst du ca. 2 Monate um den Kurs abzuschliessen.
-</p>
+
+                <h3 class="accordionTitle">
+                    <strong>Modul 8:</strong>  Neuronale Netze selbst gemacht
+                </h3>
+                <div class="accordionContent">
+                    <ul>
+                        <li>Einfaches NN selbst geschrieben</li>
+                        <li>Aktivierungs- und Loss-Funktionen</li>
+                        <li>Forward Feed selber rechnen</li>
+                        <li>Backprop selber rechnen</li>
+                        <li>(Wie mache ich das in PyTorch?)</li>
+                    </ul>
+                </div>
+
+                <h3 class="accordionTitle">
+                    <strong>Modul 9:</strong>  Deep Learning mit mehr Power
+                </h3>
+                <div class="accordionContent">
+                    <ul>
+                        <li>Überblick DL auf AWS</li>
+                        <li>Unser Docker auf einer AWS-EC2-Instanz</li>
+                        <li>Einführung SageMaker</li>
+                        <li>colab.research.google.com</li>
+                    </ul>
+                </div>
+
+                <h3 class="accordionTitle">
+                    <strong>Modul 10:</strong>  Architekturen von neuronalen Netzen
+                </h3>
+                <div class="accordionContent">
+                    <ul>
+                        <li>CNN: LeNet, AlexNet, ResNet, ...</li>
+                        <li>RNNs (LSTMs)</li>
+                        <li>AutoML</li>
+                        <li>Hyper Parameter Tuning (Gridsearch)</li>
+
+                    </ul>
+                </div>
+
+                <h3 class="accordionTitle">
+                    <strong>Modul 11:</strong>   Transfer Learning
+                </h3>
+                <div class="accordionContent">
+                    <ul>
+                        <li>Was sind vortrainierte Netze?</li>
+                        <li>Deep Learning mit wenig Daten</li>
+                        <li>Vortrainierte Netze anwenden.</li>
+                        <li>ResNets – the State of the Art</li>
+                        <li>Hausaufgabe: Großes Dataset klassifizieren</li>
+                    </ul>
+                </div>
+
+
+                <h3 class="accordionTitle">
+                    <strong>Modul 12:</strong>   Generative Adverserial Networks (GAN)
+                </h3>
+                <div class="accordionContent">
+                    <ul>
+                        <li>Was ist ein GAN und wie funktioniert es?</li>
+                        <li>Beispielanwendungen: Generation of Images (e.g. anime figures, ProgressiveGrowing), Superresolution, Style Transfer</li>
+                        <li>Beispiel: Emoji-Erstellung (Progressives Wachstum von GANs von NVIDIA)</li>
+                    </ul>
+                </div>
+
+                <h3 class="accordionTitle">
+                    <strong>Modul 13:</strong>   Predictive Maintenance
+                </h3>
+                <div class="accordionContent">
+                    <ul>
+                        <li>Wartungsstrategien</li>
+                        <li>Arten von Daten</li>
+                        <li>Klassifikation mit CNNs</li>
+                    </ul>
+                </div>
+
+                <h3 class="accordionTitle">
+                    <strong>Modul 14:</strong>   Natural Language Processing Basics
+                </h3>
+                <div class="accordionContent">
+                    <ul>
+                        <li>Was kann NLP und was nicht?</li>
+                        <li>Sprachsynthese</li>
+                        <li>Topic Modeling</li>
+                        <li>Sprache verstehen</li>
+                        <li>Alexa, Siri und Co.</li>
+                        <li>TTS-Systeme in der Cloud</li>
+
+                    </ul>
+                </div>
+
+
+                <h3 class="accordionTitle">
+                    <strong>Modul 15:</strong>   NLP-Praxis 1
+                </h3>
+                <div class="accordionContent">
+                   <p>tbd</p>
+                </div>
+
+                <h3 class="accordionTitle">
+                    <strong>Modul 16:</strong>   Reinforcement Learning Basics
+                </h3>
+                <div class="accordionContent">
+                    <p>tbd</p>
+                </div>
+
+                <h3 class="accordionTitle notActive">
+                    <strong>Modul 17:</strong>   Reinforcement-Learning-Praxis 1
+                </h3>
+                <div class="accordionContent">
+                    <p>tbd</p>
+                </div>
+
+            </div>
+
+            <div class="col-xs-12 text-center">
+                <p class="text-center">
+                    <a href="https://bootcamp.codecentric.ai/dl-course/" target="_blank" class="btn btn-primary btn-red">Kostenlos teilnehmen</a>
+                </p>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+<div class="widgetKiTeam" id="dozenten">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 text-center">
+                <h2>Die Dozenten stellen sich vor</h2>
+                <p class="text-large">
+                    <strong>
+                        Bei codecentric arbeiten zahlreiche Mitarbeiter im Bereich Data Science. Hier sehen Sie einen kleinen Auszug von Mitarbeitern, die sich mit künstlicher Intelligenz beschäftigen:
+                    </strong>
+                </p>
+            </div>
+        </div>
+        <div class="row portraitOuterWrap"><div class="col-xs-12 col-sm-6 col-md-3 portraitItem"><div class="portraitWrap item1"> <img src="https://www.codecentric.de/files/2018/07/oli1.png" class="lazyloadImage" data-original="https://www.codecentric.de/files/2018/07/oli1.png" alt="Oliver Moser" style=""></div><h3>Oliver Moser</h3><p>Oliver ist Autodidakt und konzentriert sich auf die Themen Computer Vision und Deep Learning. Seit 1999 ist er international als IT Consultant unterwegs und bringt umfangreiche Erfahrung in den Bereichen Cloud, Big Data und IT Security mit.</p></div><div class="col-xs-12 col-sm-6 col-md-3 portraitItem"><div class="portraitWrap item2"> <img src="https://www.codecentric.de/files/2018/07/shirin1.png" class="lazyloadImage" data-original="https://www.codecentric.de/files/2018/07/shirin1.png" alt="Dr. Shirin Glander" style=""></div><h3>Dr. Shirin Glander</h3><p>Shirin hat in der Bioinformatik promoviert. Sie wendet Analyse- &amp; Visualisierungsmethoden verschiedenster Bereiche an – z.B. Machine Learning, klassische Statistik, Textanalyse, etc. – um Informationen aus Daten zugänglich und nutzbar zu machen.</p></div><div class="col-xs-12 col-sm-6 col-md-3 portraitItem"><div class="portraitWrap item3"> <img src="https://www.codecentric.de/files/2018/07/francesca.jpg" class="lazyloadImage" data-original="https://www.codecentric.de/files/2018/07/francesca.jpg" alt="Dr. Francesca Diana" style=""></div><h3>Dr. Francesca Diana</h3><p>Nach ihrer Promotion in Mathematik hat Francesca als Business Intelligence Managerin gearbeitet. Sie arbeitet mit verschiedenen Methoden für die Visualisierung und Analyse von Daten und benutzt Machine-Learning-Modelle, um Vorhersagen zu machen.</p></div><div class="col-xs-12 col-sm-6 col-md-3 portraitItem"><div class="portraitWrap item4"> <img src="https://www.codecentric.de/files/2018/07/michel_pluemacher.jpg" class="lazyloadImage" data-original="https://www.codecentric.de/files/2018/07/michel_pluemacher.jpg" alt="Dr. Michael Plümacher" style=""></div><h3>Dr. Michael Plümacher</h3><p>Als Data Scientist und Physiker analysiert Dr. Michael Plümacher Daten und konstruiert Machine Learning Modelle zum Verständnis und zur Vorhersage von Daten.</p></div><div class="col-xs-12 col-sm-6 col-md-3 portraitItem"><div class="portraitWrap item5"> <img src="https://www.codecentric.de/files/2018/07/Matthias_Radtke-700x700-700x700.png" class="lazyloadImage" data-original="https://www.codecentric.de/files/2018/07/Matthias_Radtke-700x700-700x700.png" alt="Dr. Matthias Radtke" style=""></div><h3>Dr. Matthias Radtke</h3><p>Der promovierte Physiker ist Data Scientist bei der codecentric AG. Er analysiert Daten aller Erscheinungsformen und entwickelt datengetriebene, intelligente Lösungen und Produkte für Unternehmen der digital transformierten Welt.</p></div><div class="col-xs-12 col-sm-6 col-md-3 portraitItem"><div class="portraitWrap item6"> <img src="https://www.codecentric.de/files/2018/07/marcel_mikl-1-700x700.png" class="lazyloadImage" data-original="https://www.codecentric.de/files/2018/07/marcel_mikl-1-700x700.png" alt="Dr. Marcel Mikl" style=""></div><h3>Dr. Marcel Mikl</h3><p>Durch die mathematische Prägung im Zuge seiner Promotion ist es Marcel gewohnt, auftretende Probleme strukturiert zu lösen. Derzeit interessiert er sich insbesondere für aktuelle Technologien rund um das Thema Data Science und Machine Learning.</p></div><div class="col-xs-12 col-sm-6 col-md-3 portraitItem"><div class="portraitWrap item7"> <img src="https://www.codecentric.de/files/2018/07/Berthold-Schulte-16_III-700x700.jpg" class="lazyloadImage" data-original="https://www.codecentric.de/files/2018/07/Berthold-Schulte-16_III-700x700.jpg" alt="Berthold Schulte" style=""></div><h3>Berthold Schulte</h3><p>Berthold ist Informatiker und als Consultant im Data-Science- und AI-Umfeld tätig. Sein Fokus liegt derzeit auf Methoden und Technologien des Machine und Deep Learnings.</p></div><div class="col-xs-12 col-sm-6 col-md-3 portraitItem"><div class="portraitWrap item8"> <img src="https://www.codecentric.de/files/2018/07/Alexander-Melnyk-09-1-700x700.jpg" class="lazyloadImage" data-original="https://www.codecentric.de/files/2018/07/Alexander-Melnyk-09-1-700x700.jpg" alt="Alexander Melnyk" style=""></div><h3>Alexander Melnyk</h3><p>Als Cloud Native Developer realisiert Alexander skalierbare und robuste Systeme.&nbsp;Seine Schwerpunkte sind Cloud-Technologien, Serverless-Architekturen, DevOps und Data Science.&nbsp;Er ist ein Deep Worker, Machine Learner und Python Whisperer.</p></div><div class="col-xs-12 col-sm-6 col-md-3 portraitItem"><div class="portraitWrap item9"> <img src="https://www.codecentric.de/files/2018/07/cc-cropped-markk-2-e1508354107727-700x700.png" class="lazyloadImage" data-original="https://www.codecentric.de/files/2018/07/cc-cropped-markk-2-e1508354107727-700x700.png" alt="Mark Keinhörster" style=""></div><h3>Mark Keinhörster</h3><p>Mark ist im Big-Data-Zoo zu Hause und bringt Erfahrungen mit Hadoop und Apache Spark mit. Außerdem beschäftigt er sich mit Docker, Cloud-Technologien und Machine-Learning.</p></div><div class="col-xs-12 col-sm-6 col-md-3 portraitItem"><div class="portraitWrap item10"> <img src="https://www.codecentric.de/files/2018/07/Kai-Herings-700x700px-700x700.png" class="lazyloadImage" data-original="https://www.codecentric.de/files/2018/07/Kai-Herings-700x700px-700x700.png" alt="Kai Herings" style=""></div><h3>Kai Herings</h3><p>Kai hat Informatik an der RWTH Aachen studiert und ist im Bereich Anwendungsfälle für Computer Vision und Machine Learning seit vielen Jahren aktiv.</p></div><div class="col-xs-12 col-sm-6 col-md-3 portraitItem"><div class="portraitWrap item11"> <img src="https://www.codecentric.de/files/2018/07/Nico_Axtmann_700x700px-700x700.png" class="lazyloadImage" data-original="https://www.codecentric.de/files/2018/07/Nico_Axtmann_700x700px-700x700.png" alt="Nico Axtmann" style=""></div><h3>Nico Axtmann</h3><p>Als Machine Learning Engineer entwickelt Nico datengetriebene Produkte und Lösungen. Derzeit konzentriert er sich vor allem auf die Kombination von Natural Language Processing und Deep Learning.</p></div><div class="col-xs-12 col-sm-6 col-md-3 portraitItem"><div class="portraitWrap item12"> <img src="https://www.codecentric.de/files/2018/07/Agnes_Köhler-700x700.jpg" class="lazyloadImage" data-original="https://www.codecentric.de/files/2018/07/Agnes_Köhler-700x700.jpg" alt="Agnes Köhler" style=""></div><h3>Agnes Köhler</h3><p>In ihrer Forschungsarbeit simulierte und steuerte Agnes biologische Systeme mithilfe von mathematischen Modellen.<br> Als IT Consultant konzentriert sie sich derzeit auf Machine Learning und Cloud-Native-Themen.</p></div></div>
+    </div>
+</div>
+
+
+<div class="widgetKiContent gradientBlue" id="firmen-deep-drive">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 text-center">
+                <h2>Deep  Dive für Unternehmen</h2>
+                <h3>
+Wir bieten unseren Kurs kostenlos an – bei Interesse könnt ihr jedoch einen Vor-Ort-Workshop (Teilnehmerzahl: mindestens 5 bis maximal 25) buchen. Dieser beinhaltet folgendes:                </h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-md-10 col-md-offset-1 col-lg-9 col-lg-offset-2">
+                <ul class="list-unstyled circleList">
+                    <li>
+                        <span class="circle blue">
+                            <img src="images/iconBuch@2x.png" alt="Drei Tage Intensiv-Workshop vor Ort."/>
+                        </span>
+                         3 Tage Intensiv-Workshop
+                    </li>
+                    <li>
+                        <span class="circle lightBlue">
+                                                        <img src="images/iconHut@2x.png" alt="Die Teilnehmer bekommen direkten Kontakt zu den Dozenten."/>
+
+                        </span>
+
+                        Direkter Kontakt zu den Dozenten.
+                    </li>
+                    <li>
+                        <span class="circle red">
+                            <img src="images/iconPaket@2x.png" alt="Zusätzlich erhaltet ihr ein Consulting-Paket"/>
+                        </span>
+
+Inklusive Consulting-Paket (8 Std.) mit erfahrenen Data Scientists
+                    </li>
+                    <li>
+                        <span class="circle green">
+                            <img src="images/iconGeld@2x.png" alt="Das Paket kostet 800 EUR pro Teilnehmer."/>
+                        </span>
+                       800 €  pro Teilnehmer
+                    </li>
+                </ul>
+                
+                                       <p class="text-small">Teilnehmerzahl: mindestens 5 bis maximal 25</p>
+
+                
+
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12">
+                <p class="text-center">
+                    <a href="#" class="btn btn-primary btn-red showContactForm">Jetzt anfragen</a>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="bgImage"></div>
+</div>
+
+
+
+<!-- KI Kontakt -->
+<div class="widgetKiKontakt" id="kontakt">
+    <div class="container">
+        <div class="row">
+
+            <div class="col-xs-12">
+                <!--[if lte IE 8]>
+                <script charset="utf-8" src="https://js.hsforms.net/forms/v2-legacy.js"></script>
+                <![endif]-->
+                <script charset="utf-8" src="https://js.hsforms.net/forms/v2.js"></script>
+                <script>
+                    hbspt.forms.create({
+                        portalId: "1918859",
+                        formId: "e50a53e2-7e45-4623-8485-a9587bae64d7",
+                        css: ""
+                    });
+                </script>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+<div class="widgetKiContent animateIt" id="faq">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 text-center">
+                <h2>FAQ</h2>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-xs-12 col-md-6">
+                <h3>Wie läuft der Kurs ab?</h3>
+                <p>
+                    Der Kurs ist aufgeteilt in mehrere Abschnitte. Wir versuchen jede Einheit kleiner als 30 Minuten zu halten, damit man den Kurs gut "nebenbei" machen kann. Zu jedem Modul haben wir zunächst ein paar einführende Videos erstellt, die die Basics erklären sollen. Danach gibt es jeweils einen praktischen Teil, in dem wir uns Code ansehen und danach folgen Übungsaufgaben, die selbständig zu bearbeiten sind. Die Kursinhalte sind fast ausschließlich auf Deutsch erstellt.
+                </p>
+            </div>
+            <div class="col-xs-12 col-md-6">
+                <h3>Overfitting oder doch Überanpassung?</h3>
+                <p>
+                    Wir haben uns zum Ziel gesetzt, Machine-Learning-Inhalte auf Deutsch zu produzieren. Natürlich sprechen die meisten Data Scientists gut Englisch, dennoch sind wir der Meinung, dass dies förderlich für eine deutschsprachige Community ist. Viele der verwendeten Fachbegriffe klingen auf Deutsch allerdings komisch und werden so in der Praxis kaum verwendet. Wir haben die ideale Lösung noch nicht gefunden – bislang mixen wir einfach alles bunt durcheinander – wir hoffen that's ok for dich. :)
+                </p>
+            </div>
+        </div>
+
+
+        <div class="row">
+            <div class="col-xs-12 col-md-6">
+                <h3>Was kostet der Kurs?</h3>
+                <p>
+                    Wir lieben den Open-Source-Gedanken. Daher stellen wir diesen Kurs kostenlos zur Verfügung. Wir hoffen, damit mehr Entwickler für die Themen Machine und Deep Learning begeistern zu können. Bei Interesse bieten wir aber auch einen komprimierten Vor-Ort-Workshop für Firmen an.
+                </p>
+            </div>
+            <div class="col-xs-12 col-md-6">
+                <h3>Was mache ich, wenn ich Hilfe brauche?</h3>
+                <p>
+                    Zur Begleitung des Kurses haben wir eine Slack Community erstellt. Dort kannst du dich anmelden und deine Fragen stellen: <br/><a href="https://join.slack.com/t/cc-ai-bootcamp/signup" target="_blank">https://join.slack.com/t/cc-ai-bootcamp/signup</a>
+                </p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-xs-12 col-md-6">
+                <h3>Ist der Kurs schon vollständig verfügbar?</h3>
+                <p>
+                    Wir entwickeln den Kurs Schritt für Schritt weiter. Einige Kapitel sind bereits online, an anderen arbeiten wir noch. Wir werden den Kurs kontinuierlich weiterentwickeln und vor allem immer neue Übungen einstellen, die in der Praxis relevant sind (z. B. aus dem Projektalltag oder aufgrund von Teilnehmerfeedback).
+                </p>
+            </div>
+        </div>
+
+    </div>
+
+
+    <div class="parallaxImageWrap">
+        <div class="parallaxImage brain1">
+            <img src="images/brain1.png" alt="codecentric AI Bootcamp">
+        </div>
+        <div class="parallaxImage brain2">
+            <img src="images/brain2.png" alt="codecentric AI Bootcamp">
+        </div>
+        <div class="parallaxImage brain3">
+            <img src="images/brain3.png" alt="codecentric AI Bootcamp">
+        </div>
+    </div>
+
+
+
+</div>
+
+
+
+<!-- Footer -->
+<div class="footer footerDark">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-md-offset-3 text-center">
+                <ul class="list-inline list-unstyled socialIcons">
+                    <li>
+                        <a href="#"><span class="icon-linkedIn"></span></a>
+                    </li>
+                    <li>
+                        <a href="#"><span class="icon-twitter"></span></a>
+                    </li>
+                    <li>
+                        <a href="#"><span class="icon-facebook"></span></a>
+                    </li>
+                    <li>
+                        <a href="#"><span class="icon-youtube"></span></a>
+                    </li>
+                    <li>
+                        <a href="#"><span class="icon-xing"></span></a>
+                    </li>
+                </ul>
+
+                <p>
+                    Copyright © 2018 codecentric AG
+                </p>
+
+
+
+
+                <svg version="1.1" id="Ebene_1_Footer" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 691 88.4" enable-background="new 0 0 691 88.4" xml:space="preserve">
+<title>logo</title>
+<g id="Ebene_2_1_">
+	<g id="Ebene_1-2">
+		<path fill="#FFFFFF" d="M141.3,15.7c11.4,0,17.5,5.2,19.8,12.6c0.7,1.8,0.1,2.6-1.5,3.2l-3.3,1c-1.7,0.8-2.5,0.2-3.2-1.5
+			c-1.7-5.2-5.3-7.9-12.2-7.9c-8.2,0-12.2,4.1-12.2,11.1v14.2c0,7,4.1,11.2,12.2,11.2c6.8,0,10.6-2.9,12.3-8.2
+			c0.8-1.8,1.4-2.1,3.2-1.5l3.3,0.9c1.7,0.7,2.3,1.4,1.6,3.2c-3,8.4-9.4,13-20.6,13c-13.9,0-20.5-7.2-20.5-19V34.6
+			C120.2,23,127,15.7,141.3,15.7z"/>
+		<path fill="#FFFFFF" d="M199.2,15.7c13.5,0,21.1,6.9,21.1,18v15.4c0,11.1-7.6,18-21.1,18c-13.2,0-21.1-6.9-21.1-18V33.8
+			C178.2,22.6,186,15.7,199.2,15.7z M199.2,23.3c-7.9,0-12.7,3.9-12.7,10.3v15.4c0,6.5,4.8,10.3,12.7,10.3S212,55.6,212,49.1V33.7
+			C212,27.2,207.2,23.3,199.2,23.3z"/>
+		<path fill="#FFFFFF" d="M257.5,15.7c4.5,0.1,8.9,0.8,13.2,2.1V3.2c0-1.7,0.6-2.3,2.3-2.3h3.9c1.6,0,2.2,0.6,2.2,2.3V59
+			c0,3.1-0.7,4-3.7,5.2c-5.4,2-11.1,3-16.8,2.8c-13.8,0-20.1-6.9-20.1-18.9V34.9C238.4,22.7,244.7,15.7,257.5,15.7z M259.1,23.4
+			c-8.4,0-12.2,4-12.2,11.7v12.7c0,7.5,4.1,11.5,12.4,11.5c3.4,0,6.8-0.5,10-1.5c1.2-0.5,1.3-0.8,1.3-1.8V25.5
+			C266.9,24.2,263,23.5,259.1,23.4L259.1,23.4z"/>
+		<path fill="#FFFFFF" d="M319.5,15.7c14.5,0,21.2,8.4,21.2,19.5v5.5c0,2-0.8,3.3-3.5,3.3h-30.6v4.5c0,7.1,4.3,11.3,12.6,11.3
+			c6.7,0,10.7-2.5,13-6.5c1.1-1.6,2-1.8,3.7-0.8l2.5,1.3c1.7,0.8,1.9,2.1,0.8,3.7c-3.3,5.7-9.4,9.6-20.2,9.6
+			c-14.7,0-20.9-8.1-20.9-19.5V35.8C298.2,23.1,305.5,15.7,319.5,15.7z M319.5,22.9c-8.5,0-12.9,4.5-12.9,11.8v2.7h25.7v-2.7
+			C332.3,27.4,328,22.9,319.5,22.9z"/>
+		<path fill="#FFFFFF" d="M376.9,15.7c11.4,0,17.5,5.2,19.8,12.6c0.6,1.8,0.1,2.6-1.5,3.2l-3.3,1c-1.7,0.8-2.5,0.2-3.2-1.5
+			c-1.7-5.2-5.3-7.9-12.2-7.9c-8.2,0-12.2,4.1-12.2,11.1v14.2c0,7,4.1,11.2,12.2,11.2c6.8,0,10.6-2.9,12.3-8.2
+			c0.8-1.8,1.4-2.1,3.2-1.5l3.3,0.9c1.7,0.7,2.3,1.4,1.6,3.2c-3,8.4-9.4,13-20.6,13c-13.9,0-20.5-7.2-20.5-19V34.6
+			C355.9,23,362.6,15.7,376.9,15.7z"/>
+		<path fill="#FFFFFF" d="M434.9,15.7c14.5,0,21.2,8.4,21.2,19.5v5.5c0,2-0.8,3.3-3.5,3.3H422v4.5c0,7.1,4.3,11.3,12.6,11.3
+			c6.7,0,10.7-2.5,13.1-6.5c1.1-1.6,2-1.8,3.7-0.8l2.5,1.3c1.7,0.8,1.9,2.1,0.9,3.7c-3.3,5.7-9.4,9.7-20.2,9.7
+			c-14.7,0-20.9-8.1-20.9-19.5V35.8C413.6,23.1,421,15.7,434.9,15.7z M434.9,22.9c-8.5,0-12.9,4.5-12.9,11.8v2.7h25.7v-2.7
+			C447.7,27.4,443.4,22.9,434.9,22.9z"/>
+		<path fill="#FFFFFF" d="M496.3,15.7c13.1,0,19.1,7,19.1,18.6v29c0,1.7-0.6,2.2-2.2,2.2h-4c-1.7,0-2.2-0.6-2.2-2.2V34.6
+			c0-7.4-3.7-11.2-11.8-11.2c-3.7,0-7.4,0.6-10.9,1.7c-0.7,0.2-1.2,0.9-1.1,1.7v36.5c0,1.7-0.6,2.2-2.2,2.2h-4
+			c-1.6,0-2.2-0.6-2.2-2.2V24.2c0-2.9,0.7-4.1,3.6-5.3C482,17.4,487.6,15.7,496.3,15.7z"/>
+		<path fill="#FFFFFF" d="M548.8,3.2v14h12.3c1.6,0,2.2,0.6,2.2,2.3v3.3c0,1.7-0.6,2.3-2.2,2.3h-12.3v21.9c0,10.2,3,12.2,12.1,12.2
+			c1.8,0,2.3,0.5,2.3,2.3v3.4c0,1.7-0.6,2.2-2.3,2.3c-14.9,0.4-20.5-4.2-20.5-19.9V24.9h-7.8c-1.7,0-2.3-0.6-2.3-2.3v-3.3
+			c0-1.7,0.6-2.3,2.3-2.3h7.8v-14c0-1.7,0.5-2.3,2.2-2.3h4C548.2,0.9,548.8,1.5,548.8,3.2z"/>
+		<path fill="#FFFFFF" d="M603.6,15.7c1.7,0,2.2,0.6,2.2,2.2v3.2c0,1.7-0.6,2.3-2.2,2.3h-3.3c-3.7,0-7.3,0.5-10.8,1.6
+			c-0.9,0.2-1.5,1-1.3,1.9v36.5c0,1.7-0.6,2.2-2.3,2.2H582c-1.6,0-2.2-0.6-2.2-2.2V23.9c0-2.9,0.7-4,3.6-5.3
+			c3.5-1.3,8.9-2.7,17.2-2.9H603.6z"/>
+		<path fill="#FFFFFF" d="M630.2,19.4v44c0,1.7-0.6,2.2-2.2,2.2h-4c-1.7,0-2.2-0.6-2.2-2.2v-44c0-1.7,0.6-2.3,2.2-2.3h4
+			C629.7,17.1,630.2,17.7,630.2,19.4z"/>
+		<path fill="#FFFFFF" d="M670.7,15.7c11.4,0,17.5,5.2,19.8,12.6c0.7,1.8,0.1,2.6-1.5,3.2l-3.3,1c-1.7,0.8-2.5,0.2-3.2-1.5
+			c-1.7-5.2-5.3-7.9-12.2-7.9c-8.2,0-12.2,4.1-12.2,11.1v14.2c0,7,4.1,11.2,12.2,11.2c6.8,0,10.6-2.9,12.3-8.2
+			c0.8-1.8,1.4-2.1,3.2-1.5l3.3,0.9c1.7,0.7,2.3,1.4,1.6,3.2c-3,8.4-9.4,13-20.6,13c-13.9,0-20.5-7.2-20.5-19V34.6
+			C649.7,23,656.4,15.7,670.7,15.7z"/>
+
+			<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="11.3467" y1="9.8648" x2="83.1939" y2="81.7121" gradientTransform="matrix(1 0 0 -1 0 90)">
+			<stop  offset="5.000000e-02" style="stop-color:#00AED2"/>
+			<stop  offset="1" style="stop-color:#87FFC5"/>
+		</linearGradient>
+		<path fill="url(#SVGID_1_)" d="M50.4,75.9c-0.8-0.8-2.1-0.9-3.1-0.2c-4.1,2.8-8.9,4.3-13.8,4.4c-13.8,0-25-11.3-25-25.1
+			c0-0.2,0-0.3,0-0.5C8.8,40.7,20.3,29.9,34,29.9h26.8c2.6,0,4.8,1.8,5.2,4.4c0.4,2.8-1.6,5.3-4.3,5.7c-0.2,0-0.4,0-0.7,0H33.9
+			c-7.4-0.1-13.5,5.7-13.9,13c-0.3,7.5,5.6,13.7,13.1,14c0.1,0,0.3,0,0.4,0h26.9c18.4,0,33.7-14.5,34.1-32.9
+			C94.9,15.6,80.1,0.3,61.6,0c-0.2,0-0.3,0-0.5,0c-7-0.1-13.8,2.1-19.4,6.2c-1.1,0.8-1.3,2.3-0.5,3.3c0.1,0.1,0.2,0.2,0.2,0.3
+			l2.8,2.8c0.8,0.8,2.1,0.9,3.1,0.2C51.3,10,56.1,8.5,61,8.5c13.8,0,25,11.3,25,25.1c0,0.2,0,0.4,0,0.5
+			c-0.3,13.7-11.8,24.4-25.5,24.4H33.8c-2.6,0-4.8-1.8-5.2-4.4c-0.4-2.8,1.6-5.3,4.4-5.7c0.2,0,0.4,0,0.6,0h27.1
+			c7.4,0.1,13.5-5.7,13.8-13c0.3-7.5-5.5-13.8-13-14.1c-0.2,0-0.3,0-0.5,0H34.1C15.7,21.4,0.3,35.9,0,54.3
+			c-0.3,18.5,14.4,33.8,32.9,34.2c0.2,0,0.4,0,0.6,0c7,0.1,13.8-2.1,19.4-6.2c1.1-0.8,1.3-2.3,0.5-3.3c-0.1-0.1-0.1-0.2-0.2-0.3
+			L50.4,75.9z"/>
+	</g>
+</g>
+</svg>
+
+
+
+                <ul class="list-inline list-unstyled">
+                    <li>
+                        <a href="https://www.codecentric.de/impressum/" target="_blank">Impressum</a>
+                    </li>
+                    <li>
+                        <a href="https://www.codecentric.de/datenschutzerklaerung/" target="_blank">Datenschutzerklärung</a>
+                    </li>
+                </ul>
+                <p >
+                    <br/>
+                    <a href="https://www.codecentric.de" class="text-green">www.codecentric.de</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="cookieHinweis" style="display:none;">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-9 col-lg-10">
+                <p>
+                    Cookies erleichtern die Bereitstellung unserer Dienste. Mit der Nutzung unserer Dienste erklären Sie sich damit einverstanden, dass wir Cookies verwenden. <a href="https://www.codecentric.de/datenschutzbestimmungen/">Weitere Informationen</a>
+                </p>
+
+            </div>
+            <div class="col-md-3 col-lg-2">
+                <button class="btn btn-block btn-primary">
+                    OK
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div id="mobileNav" class="" style="display: none;">
+    <ul class="list-unstyled">
+        <li> <span class="line"></span> <a href="#fuer-wen" class="scrollSection">Für wen?</a></li>
+        <li> <span class="line"></span> <a href="#lernziele" class="scrollSection">Lernziele</a></li>
+        <li> <span class="line"></span> <a hreF="#module" class="scrollSection">Module</a></li>
+        <li> <span class="line"></span> <a href="#dozenten" class="scrollSection">Dozenten</a></li>
+        <li> <span class="line"></span> <a href="#firmen-depp-drive" class="scrollSection">Firmen Deep-Drive</a></li>
+        <li class="control"> <span class="line"></span> <a ref="https://bootcamp.codecentric.ai/dl-course/" target="_blank" class="hidden-sm">Login</a></li>
+        <li class="control"> <span class="line"></span> <a ref="https://bootcamp.codecentric.ai/dl-course/" target="_blank" class="hidden-sm">Register</a></li>
+    </ul>
+</div>
+
+
+
+<script src="js/master.js"></script>
+
 
 </body>
 </html>
