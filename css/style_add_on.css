@@ -1,0 +1,66 @@
+.widgetKiContent ul li {
+
+    width: 100%;
+    margin: 3px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-color: #a0a0a0;
+    padding: 8px; 
+}
+
+.light_row {
+    background-color: #f0f0f0 !important;
+}
+
+.widgetKiContent ul li a {
+    border-style: none !important;
+    border-color: #fffff;
+}
+
+.done {
+    list-style: none; 
+    background: url('/images/ok_32.png') right center no-repeat; 
+}
+
+.not_done {
+    list-style: none; 
+    background: url('/images/nok_32.png') right center no-repeat; 
+}
+
+.navi {
+  height: 100%;
+  width: 250px;
+  position: fixed;
+  background-color: #323232;
+  overflow-x: hidden;
+
+  padding: 10px;
+  padding-top:60px;
+}
+
+.navi h1 {
+    display: block;
+    font-size: 1.2em;
+}
+
+.navi a {
+    color: #ffffff !important;
+    display: block;
+    font-size: 1.0em;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    padding: 10px; 
+}
+.navi .light_row {
+    background-color: #a0a0a0 !important;
+}
+
+.navi .excercise {
+    font-size: 0.8em;
+    padding-left: 25px;
+    background-color: #3f3f3f; 
+}
+
+.content {
+    margin-left: 250px;
+}
