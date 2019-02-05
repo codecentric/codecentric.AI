@@ -1,3 +1,6 @@
+.jupyter {
+    width: 300px !important;
+}
 .widgetKiContent ul li {
 
     width: 100%;
@@ -9,7 +12,8 @@
 }
 
 .light_row {
-    background-color: #f0f0f0 !important;
+    background-color: #fffff !important;
+    font-size: 0.8em;
 }
 
 .widgetKiContent ul li a {
