@@ -31,6 +31,8 @@
     background: url('/images/nok_32.png') right center no-repeat; 
 }
 
+@media (max-width: 767px){.navi{display: none}}
+
 .navi {
   height: 100%;
   width: 250px;
@@ -68,3 +70,5 @@
 .content {
     margin-left: 250px;
 }
+
+@media (max-width: 767px){.content{margin-left: 0}}
