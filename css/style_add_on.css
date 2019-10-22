@@ -67,6 +67,11 @@
     background-color: #3f3f3f; 
 }
 
+.navi .img {
+  max-width: 100%;
+  height: auto;
+}
+
 .content {
     margin-left: 250px;
 }
